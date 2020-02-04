@@ -6,17 +6,19 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to Davis Data Science Club.
         </p>
+        <br />
+        <p>Our site is currently under construction.</p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.facebook.com/data.ucd/"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Stay updated here.
         </a>
       </header>
     </div>
