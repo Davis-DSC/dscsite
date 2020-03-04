@@ -13,6 +13,7 @@ const Styles = styled.div`
 
   }
   a, .navbar-brand, .navbar-nav .nav-link {
+    font-family: IBM Plex Sans;
 
     color: #fff;
     margin-left: 5.5rem;

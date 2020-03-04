@@ -8,21 +8,17 @@ const Info = styled.div`
   border-bottom: 2px solid #fff;
 
   .col-sm-5{
-
-    font-family: SF Pro Display;
+    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 1.8rem;
     color: #FFFFFF;
     left: 80px;
-
     text-shadow: 0px 0px 20px rgba(255, 255, 255, 0.5);
-
-
   }
 
   .col-sm-6 {
-    font-family: SF Pro Display;
+    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 1.5rem;
@@ -30,8 +26,6 @@ const Info = styled.div`
     left:10px;
     color: #FFFFFF;
   }
-
-
 
 `;
 
@@ -59,16 +53,10 @@ class Infocard extends React.Component {
                  <Col sm={5}>{this.props.name}</Col>
                  <Col sm={6}>{this.props.section}</Col>
                </Row>
-             { // <a        className="App-link"
-                //           href="https://www.facebook.com/data.ucd/"
-                //           target="_blank"
-                //           rel="noopener noreferrer">
-                //           Stay updated here.
-                //         </a>
-              }
           </Info>
         </Container>
       );
    }
 }
+
 export default Infocard;

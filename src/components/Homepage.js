@@ -11,7 +11,7 @@ const Mainhead = styled.div`
 `;
 
 const Title = styled.h1`
-    font-family: IBM plex sans;
+    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 3.5rem;
@@ -23,7 +23,7 @@ const Title = styled.h1`
 
 const TitleC = styled.h1`
     margin-top: -10px;
-    font-family: IBM plex sans;
+    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
     font-size: 3.5rem;
@@ -34,7 +34,7 @@ const TitleC = styled.h1`
 `;
 
 const Comment = styled.p`
-    font-family: IBM plex sans;
+    font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 25px;
