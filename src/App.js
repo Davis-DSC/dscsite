@@ -4,9 +4,11 @@ import { Homepage } from './components/Homepage';
 import { Navibar } from './components/Navibar';
 
 
+
 class App extends Component {
   render() {
     return (
+
       <React.Fragment>
         <Router>
           <Navibar />

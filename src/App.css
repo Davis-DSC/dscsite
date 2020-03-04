@@ -1,6 +1,20 @@
 .App {
   text-align: center;
+
 }
+
+.gradient{
+
+
+}
+
+.grid{
+
+  background-image: url("grid.png")
+
+
+}
+
 
 .App-logo {
   height: 40vmin;
