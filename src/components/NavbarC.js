@@ -7,24 +7,32 @@ const Styles = styled.div`
   .navbar {
     padding-top: 1.5rem;
     padding-bottom: 2rem;
-    position: absolute;
+    position: relative;
     left: 50%;
     transform: translatex(-50%);
+
+    font-family: IBM Plex Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.25rem;
+
    }
 
-  a, .navbar-brand, .navbar-nav .nav-link {
-    font-family:  ;
-    color: ;
 
-    margin-left: 5.5rem;
+
+
+  a, .navbar-brand, .navbar-nav .nav-link {
+     color: black;
+
+    margin-left: 5rem;
 
     &:hover {
-      color: ;
+      color: grey;
     }
   }
 
   .navbar-brand{
-    margin-left:0;
+    margin-left:2rem;
     margin-right:0;
 
   }
@@ -40,9 +48,6 @@ const Styles = styled.div`
 
   }
 
-
-
-
 `;
 
 
@@ -53,26 +58,26 @@ export const NavbarC = () => (
 
     <Navbar expand="lg">
 
-
-      <Navbar.Brand href="/">
-      <img
-             src="/favicon.ico"
-             width="30"
-             height="30"
-             className="d-inline-block align-top"
-             alt="React Bootstrap logo"
-           />
-      </Navbar.Brand>
-
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
       <Navbar.Collapse id="basic-navbar-nav">
 
-        <Nav className="mr-auto">
+        <Nav className="mx-auto">
+
+            <Navbar.Brand href="/">
+            <img
+                   src="/favicon.ico"
+                   width="30"
+                   height="30"
+                   className="d-inline-block align-top"
+                   alt="React Bootstrap logo"
+                 />
+            </Navbar.Brand>
+
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="projects">Projects</Nav.Link>
             <Nav.Link href="blog">Blog</Nav.Link>
-            <Nav.Link className="linkz" href="join">Join</Nav.Link>
+            <Nav.Link href="join">Join</Nav.Link>
         </Nav>
 
       </Navbar.Collapse>

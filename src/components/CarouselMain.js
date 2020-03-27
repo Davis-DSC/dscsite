@@ -2,8 +2,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'antd/dist/antd.css';
-import Container from '@material-ui/core/Container';
-import { Carousel } from 'react-bootstrap';
+ import { Carousel } from 'react-bootstrap';
 
  import styled from 'styled-components';
 
