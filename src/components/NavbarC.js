@@ -5,26 +5,18 @@ import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar {
-    padding-top: 1.5rem;
+    padding-top: 2rem;
     padding-bottom: 2rem;
-    position: relative;
-    left: 50%;
-    transform: translatex(-50%);
-
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
     font-size: 1.25rem;
-
    }
-
-
-
 
   a, .navbar-brand, .navbar-nav .nav-link {
      color: black;
-
-    margin-left: 5rem;
+     margin-right: 4.5rem;
+     padding: 0 0.75rem;
 
     &:hover {
       color: grey;
@@ -32,25 +24,21 @@ const Styles = styled.div`
   }
 
   .navbar-brand{
-    margin-left:2rem;
-    margin-right:0;
-
+    margin-right: 4.5rem;
+     padding-bottom: 1rem;
   }
 
   .navbar-light .navbar-toggler{
     border-color: transparent;
+    padding-bottom: 1rem;
   }
 
   .navbar-collapse{
-    text-align: end;
-    padding-right: 1rem;
-
-
+    text-align: left;
+    padding: 0.5rem 1rem;
   }
 
 `;
-
-
 
 
 export const NavbarC = () => (
@@ -77,7 +65,7 @@ export const NavbarC = () => (
             <Nav.Link href="about">About</Nav.Link>
             <Nav.Link href="projects">Projects</Nav.Link>
             <Nav.Link href="blog">Blog</Nav.Link>
-            <Nav.Link href="join">Join</Nav.Link>
+            <Nav.Link href="join" style = {{margin: "0"}} >Join</Nav.Link>
         </Nav>
 
       </Navbar.Collapse>
