@@ -4,25 +4,34 @@ import Grid from '@material-ui/core/Grid';
 import Paper from '@material-ui/core/Paper';
 import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
+import TextField from '@material-ui/core/TextField';
+import Icon from '@material-ui/core/Icon';
+
+
 
 const Styles = styled.div`
     padding-bottom: 3.5rem;
-`;
+    padding-top: 2.5rem;
+    background-color: #FFF;
+ `;
 
 
 const Title = styled.h1`
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: bold;
-    font-size: 3rem;
+    font-size: 2.25rem;
     text-align: center;
     color: #000;
+    padding-bottom: .25rem;
+    padding-top: 2rem;
 `;
 
 const Himg = styled.img`
     width: 100%;
     height: auto;
     max-width: 722px;
+    padding-bottom: 0rem;
  `;
 
 
@@ -31,24 +40,20 @@ const Himg = styled.img`
      font-style: normal;
      font-size: 1.75rem;
      color: #000;
-     padding-top: 3rem;
+     padding-top: 3.25rem;
      padding-right: 2rem;
      padding-left: 2rem;
-     padding-bottom: 2.5rem;
+     padding-bottom: 1.5rem;
      letter-spacing: 0.02rem;
+
+     .email{
+
+       padding-bottom:0rem;
+     }
+
+
  `;
 
-const Subpara = styled.h3`
-    font-family: IBM Plex Sans;
-    font-style: normal;
-    font-size: 1.75rem;
-    color: #000;
-    padding-top: 3rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 2.5rem;
-    letter-spacing: 0.02rem;
-`;
 
  const SGrid = styled(Grid)`
     .righthead{
@@ -71,40 +76,72 @@ const Subpara = styled.h3`
 
     }
 
+    .MuiInputLabel-outlined,.MuiFormHelperText-contained, .MuiOutlinedInput-input{
+      font-family: IBM Plex Sans;
+      font-style: normal;
+
+    }
+
+    .MuiFormHelperText-root{
+      margin-top: .45rem;
+    }
+
   `;
 
 
 
- export const ConnectH = () => (
+export const ConnectH = () => (
 
-<Styles>
-    <Container>
+    <Styles>
+        <Container>
 
-    <Paper elevation={0}>
+            <Paper  style = {{background: "#FCFCFC"}} elevation={1}>
 
-        <SGrid container>
+              <Title> Connect with us </Title>
 
-            <Grid style = {{background: "#FCFCFC"}} item sm={3}>
+                <SGrid container >
 
-            </Grid>
+                <Grid className="righthead" item sm={4}>
+                <Subtitle>
+                        Please reach out to us for any information
+                         and connect with us on social media.</Subtitle>
+                </Grid>
 
-            <Grid item sm={3}>
+                <Grid  className="righthead" item sm={4}>
 
-            </Grid>
+                  <Himg src='/data2.gif'/>
 
-            <Grid style = {{background: "#FCFCFC"}} className="righthead" item sm={3}>
+                </Grid>
 
-            </Grid>
+                <Grid className="righthead" item sm={4}>
 
-        </SGrid>
+                <Subtitle className="email" >Join our mailing list.</Subtitle>
 
-      </Paper>
+                <TextField
+                     id="outlined-basic"
+                     label="Enter Email"
+                     helperText="We will never share your email."
+                     margin="normal"
+                     variant="outlined"  />
 
-      </Container>
-  </Styles>
+                     <Button
+                       variant="contained"
+                       color="primary">
+
+                       Send
+                     </Button>
+
+
+                </Grid>
+
+            </SGrid>
 
 
 
+          </Paper>
+
+          </Container>
+      </Styles>
 
 
 

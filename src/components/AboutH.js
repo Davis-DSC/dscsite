@@ -33,9 +33,9 @@ const Himg = styled.img`
      font-style: normal;
      font-size: 1.75rem;
      color: #000;
-     padding-top: 2rem;
-     padding-right: 2rem;
-     padding-left: 2rem;
+     padding-top: .75rem;
+     padding-right: 3.5rem;
+     padding-left: 3.5rem;
      padding-bottom: 5rem;
      letter-spacing: 0.03rem;
  `;
@@ -43,11 +43,10 @@ const Himg = styled.img`
 const Subtitle = styled.h3`
     font-family: IBM Plex Sans;
     font-style: normal;
-    font-size: 1.75rem;
+    font-size: 2.25rem;
     font-weight:bold;
     color: #000;
     padding-top: 2.5rem;
-
     padding-right: 2rem;
     padding-left: 2rem;
     letter-spacing: 0.02rem;
@@ -90,7 +89,7 @@ const Subtitle = styled.h3`
 
              <Grid className="righthead" item sm={6}>
 
-            <Paper style = {{background: "#FCFCFC"}} elevation={0}>
+            <Paper style = {{background: "#FCFCFC"}} elevation={1}>
 
              <Subtitle>About</Subtitle>
 

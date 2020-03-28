@@ -33,9 +33,9 @@ const Subtitle = styled.h3`
     font-size: 1.75rem;
     color: #000;
     padding-top: 3rem;
-    padding-right: 2rem;
-    padding-left: 2rem;
-    padding-bottom: 2.5rem;
+    padding-right: 4.5rem;
+    padding-left: 4.5rem;
+    padding-bottom: 2rem;
     letter-spacing: 0.02rem;
 `;
 
@@ -77,7 +77,7 @@ const Subtitle = styled.h3`
         <SGrid container>
 
             <Grid  className="righthead" item sm={6}>
-              <Himg src='/header1.png'/>
+              <Himg src='/header3.png'/>
             </Grid>
 
             <Grid className="righthead" item sm={6}>
