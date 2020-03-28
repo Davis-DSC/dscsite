@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 import { Homepage } from './components/Homepage';
 import { NavbarC } from './components/NavbarC';
-import Box from '@material-ui/core/Box';
+import { Footer } from './components/Footer';
 
 
 
@@ -11,13 +11,9 @@ class App extends Component {
     return (
 
       <React.Fragment>
-
-
-
            <NavbarC />
-
-
            <Homepage />
+           <Footer />
        </React.Fragment>
     );
   }

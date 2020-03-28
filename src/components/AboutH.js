@@ -10,7 +10,6 @@ const Styles = styled.div`
 `;
 
 
-
 const Title = styled.h1`
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -21,21 +20,36 @@ const Title = styled.h1`
 `;
 
 const Himg = styled.img`
-    width: 100%;
+    width: 80%;
     height: auto;
     max-width: 722px;
+    padding-bottom: 1.75rem;
+    padding
  `;
 
+
+ const Subpara = styled.h3`
+     font-family: IBM Plex Sans;
+     font-style: normal;
+     font-size: 1.75rem;
+     color: #000;
+     padding-top: 2rem;
+     padding-right: 2rem;
+     padding-left: 2rem;
+     padding-bottom: 5rem;
+     letter-spacing: 0.03rem;
+ `;
 
 const Subtitle = styled.h3`
     font-family: IBM Plex Sans;
     font-style: normal;
     font-size: 1.75rem;
+    font-weight:bold;
     color: #000;
-    padding-top: 3rem;
+    padding-top: 2.5rem;
+
     padding-right: 2rem;
     padding-left: 2rem;
-    padding-bottom: 2.5rem;
     letter-spacing: 0.02rem;
 `;
 
@@ -43,7 +57,7 @@ const Subtitle = styled.h3`
     .righthead{
       justify-content: center;
       text-align: center;
-     }
+    }
 
     .headbutton{
       color: white;
@@ -64,30 +78,38 @@ const Subtitle = styled.h3`
 
 
 
- export const Header = () => (
+ export const AboutH = () => (
+
 <Styles>
     <Container>
 
     <Paper elevation={0}>
 
 
+         <SGrid container>
 
-        <Title> DATA SCIENCE CLUB </Title>
+             <Grid className="righthead" item sm={6}>
 
-        <SGrid container>
+            <Paper style = {{background: "#FCFCFC"}} elevation={0}>
 
-            <Grid  className="righthead" item sm={6}>
-              <Himg src='/header1.png'/>
-            </Grid>
+             <Subtitle>About</Subtitle>
+
+             <Subpara> We are a passionate community of students
+             across many disciplines interested in Data Science.
+              We connect UC Davis to industry professionals and
+              researchers through our project groups and events.
+             </Subpara>
+
+              </Paper>
+
+             </Grid>
+
 
             <Grid className="righthead" item sm={6}>
-            <Subtitle>UC Davis’s student
-            organization dedicated to fostering
-            a Data Science Community.</Subtitle>
-            <Button className="headbutton" variant="contained" size="large">
-               Learn More
-            </Button>
+              <Himg src='/header2.png'/>
             </Grid>
+
+
 
         </SGrid>
 

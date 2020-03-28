@@ -10,7 +10,6 @@ const Styles = styled.div`
 `;
 
 
-
 const Title = styled.h1`
     font-family: IBM Plex Sans;
     font-style: normal;
@@ -27,7 +26,19 @@ const Himg = styled.img`
  `;
 
 
-const Subtitle = styled.h3`
+ const Subtitle = styled.h3`
+     font-family: IBM Plex Sans;
+     font-style: normal;
+     font-size: 1.75rem;
+     color: #000;
+     padding-top: 3rem;
+     padding-right: 2rem;
+     padding-left: 2rem;
+     padding-bottom: 2.5rem;
+     letter-spacing: 0.02rem;
+ `;
+
+const Subpara = styled.h3`
     font-family: IBM Plex Sans;
     font-style: normal;
     font-size: 1.75rem;
@@ -43,7 +54,7 @@ const Subtitle = styled.h3`
     .righthead{
       justify-content: center;
       text-align: center;
-     }
+    }
 
     .headbutton{
       color: white;
@@ -64,29 +75,25 @@ const Subtitle = styled.h3`
 
 
 
- export const Header = () => (
+ export const ConnectH = () => (
+
 <Styles>
     <Container>
 
     <Paper elevation={0}>
 
-
-
-        <Title> DATA SCIENCE CLUB </Title>
-
         <SGrid container>
 
-            <Grid  className="righthead" item sm={6}>
-              <Himg src='/header1.png'/>
+            <Grid style = {{background: "#FCFCFC"}} item sm={3}>
+
             </Grid>
 
-            <Grid className="righthead" item sm={6}>
-            <Subtitle>UC Davis’s student
-            organization dedicated to fostering
-            a Data Science Community.</Subtitle>
-            <Button className="headbutton" variant="contained" size="large">
-               Learn More
-            </Button>
+            <Grid item sm={3}>
+
+            </Grid>
+
+            <Grid style = {{background: "#FCFCFC"}} className="righthead" item sm={3}>
+
             </Grid>
 
         </SGrid>

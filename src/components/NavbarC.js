@@ -1,12 +1,12 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-import { Nav, Navbar, Container, Button } from 'react-bootstrap';
+import { Nav, Navbar, Button } from 'react-bootstrap';
 import styled from 'styled-components';
 
 const Styles = styled.div`
   .navbar {
     padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-bottom: 3rem;
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
