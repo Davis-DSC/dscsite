@@ -101,6 +101,11 @@ const Himg = styled.img`
       padding-bottom: 1.75rem;
     }
 
+    .emailb{
+      display: inline-block;
+      padding-bottom:1.5rem;
+        }
+
 
 
     .MuiFormControl-marginNormal{
@@ -181,7 +186,7 @@ export const ConnectH = () => (
 
                 <Subtitle className="email" >Join our mailing list.</Subtitle>
 
-                      <div style = {{display: "inline-block"}}>
+                      <div className="emailb" >
 
                 <TextField
                      id="outlined-basic"

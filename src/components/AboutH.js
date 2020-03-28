@@ -23,8 +23,8 @@ const Himg = styled.img`
     width: 80%;
     height: auto;
     max-width: 722px;
-    padding-bottom: 1.75rem;
-    padding
+    padding-top: 1.75rem;
+
  `;
 
 
