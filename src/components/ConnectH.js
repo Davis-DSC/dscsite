@@ -20,7 +20,7 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 
 const Styles = styled.div`
     padding-bottom: 3.5rem;
-    padding-top: 2.5rem;
+    padding-top: 0rem;
     background-color: #FFF;
  `;
 
@@ -47,7 +47,7 @@ const Himg = styled.img`
  const Subtitle = styled.h3`
      font-family: IBM Plex Sans;
      font-style: normal;
-     font-size: 1.55rem;
+     font-size: 1.65rem;
      color: #000;
      padding: 1.75rem 2rem;
 
@@ -120,7 +120,10 @@ const Himg = styled.img`
     .iconz{
       font-size:2rem;
 
+
     }
+
+
 
 
 
@@ -147,26 +150,26 @@ export const ConnectH = () => (
 
 
 
-                  <ButtonGroup size="large" className="buttongroup" aria-label="large outlined primary button group">
+                  <ButtonGroup size="large" className="buttongroup" aria-label="large outlined button group">
 
-                      <IconButton  aria-label="Facebook">
+                      <IconButton href="https://www.facebook.com/data.ucd/" target="_blank" aria-label="Facebook">
                        <FacebookIcon className="iconz" />
                        </IconButton>
 
-                       <IconButton aria-label="Github">
+                       <IconButton href="https://github.com/Davis-Data-Science-Club" target="_blank" aria-label="Github">
                         <GitHubIcon className="iconz"/>
                         </IconButton>
 
-                        <IconButton aria-label="LinkedIn">
+                        <IconButton href="https://www.linkedin.com/company/davisdsc/" target="_blank" aria-label="LinkedIn">
                          <LinkedInIcon className="iconz"/>
                          </IconButton>
 
-                         <IconButton aria-label="Email">
+                         <IconButton href="mailto:team@davisdsc.com?" target="_top" aria-label="Email">
                           <MailOutlineIcon className="iconz"/>
                           </IconButton>
 
 
-                      <IconButton aria-label="Youtube">
+                      <IconButton href="https://www.youtube.com/channel/UCXZPSQnLX1qLw-N19HKXKaA?view_as=subscriber" target="_blank" aria-label="Youtube">
                        <YouTubeIcon className="iconz"/>
                        </IconButton>
 
@@ -188,12 +191,18 @@ export const ConnectH = () => (
 
                       <div className="emailb" >
 
+
+
+
+
                 <TextField
                      id="outlined-basic"
                      label="Enter Email"
                      helperText="We will never share your email."
                      margin="normal"
-                     variant="outlined"  />
+                     variant="outlined"
+
+                      />
 
 
 

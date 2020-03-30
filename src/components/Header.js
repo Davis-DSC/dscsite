@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 
 const Styles = styled.div`
-    padding-bottom: 3.5rem;
+    padding-bottom: 4.5rem;
 `;
 
 
@@ -84,7 +84,7 @@ const Subtitle = styled.h3`
             <Subtitle>UC Davis’s student
             organization dedicated to fostering
             a Data Science Community.</Subtitle>
-            <Button className="headbutton" variant="contained" size="large">
+            <Button className="headbutton" variant="contained" size="large" href="https://www.facebook.com/data.ucd/" target="_blank">
                Learn More
             </Button>
             </Grid>

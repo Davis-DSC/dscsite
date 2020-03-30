@@ -6,7 +6,7 @@ import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 
 const Styles = styled.div`
-    padding-bottom: 3.5rem;
+    padding-bottom: 1.5rem;
 `;
 
 
@@ -23,7 +23,6 @@ const Himg = styled.img`
     width: 80%;
     height: auto;
     max-width: 722px;
-    padding-top: 1.75rem;
 
  `;
 
@@ -58,6 +57,12 @@ const Subtitle = styled.h3`
       text-align: center;
     }
 
+    .lefthead{
+      justify-content: center;
+      text-align: center;
+      padding-bottom:3rem;
+    }
+
     .headbutton{
       color: white;
       background: linear-gradient(99.56deg, #001C84 3.37%, #BC5555 89.07%);;
@@ -87,7 +92,7 @@ const Subtitle = styled.h3`
 
          <SGrid container>
 
-             <Grid className="righthead" item sm={6}>
+             <Grid className="lefthead" item sm={6}>
 
             <Paper style = {{background: "#FCFCFC"}} elevation={1}>
 

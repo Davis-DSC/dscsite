@@ -12,7 +12,14 @@ class App extends Component {
 
       <React.Fragment>
            <NavbarC />
-           <Homepage />
+
+           <Router>
+              <Switch>
+                 <Route exact path="/" component={Homepage} />
+                 <Route component={Homepage} />
+
+              </Switch>
+           </Router>
            <Footer />
        </React.Fragment>
     );
