@@ -61,6 +61,21 @@ const Himg = styled.img`
       text-align: center;
     }
 
+    .headbutton{
+      color: white;
+      background: linear-gradient(99.56deg, #001C84 3.37%, #BC5555 89.07%);;
+      font-family: IBM Plex Sans;
+      font-style: normal;
+      font-size: .9rem;
+      font-weight: bold;
+      letter-spacing: 0.1rem;
+
+      &:hover {
+        background-color: black;
+      }
+
+    }
+
     .headbutton2{
       color: white;
       background: linear-gradient(99.56deg, #001C84 3.37%, #BC5555 89.07%);;
@@ -102,7 +117,9 @@ const Himg = styled.img`
     }
 
     .emailb{
-      display: inline-block;
+      display: flex
+      justify-content: center;
+      text-align: center;
       padding-bottom:1.5rem;
         }
 
@@ -187,14 +204,26 @@ export const ConnectH = () => (
 
                 <Grid className="righthead" item sm={4}>
 
-                <Subtitle className="email" >Join our mailing list.</Subtitle>
+                <Subtitle  >Join our mailing list.</Subtitle>
 
-                      <div className="emailb" >
-
-
+                       <div className="emailb" >
 
 
+                      <Button
+                        className = "headbutton"
+                        variant="contained"
+                        href="https://mailchi.mp/1510cbd1c7f7/dscmail"
+                      > Subscribe
+                      </Button>
 
+
+
+
+
+
+
+
+{/*
                 <TextField
                      id="outlined-basic"
                      label="Enter Email"
@@ -211,6 +240,8 @@ export const ConnectH = () => (
                        variant="contained"
                        endIcon={<SendIcon />}> Send
                      </Button>
+*/}
+
 
                      </div>
 
