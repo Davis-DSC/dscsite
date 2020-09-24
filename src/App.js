@@ -12,20 +12,12 @@ class App extends Component {
     return (
       <React.Fragment>
 
-           <Router>
-              <Container>
+               <Container>
               <NavbarC />
-              <Switch>
-                 <Route exact path="/" component={Homepage} />
-                 <Route path="/about" component={Homepage} />
-                 <Route path="/events" component={Homepage} />
-                 <Route path="/join" component={Homepage} />
-                 <Route component={Homepage} />
-              </Switch>
+               <Homepage />
               </Container>
               <Footer />
 
-           </Router>
 
        </React.Fragment>
     );

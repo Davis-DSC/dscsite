@@ -19,7 +19,6 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 
 
 const Styles = styled.div`
-  
     padding: 3.5rem 0rem;
     background-color: #FFF;
  `;
