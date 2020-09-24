@@ -44,7 +44,7 @@ const Himg = styled.img`
 const Subtitle = styled.h3`
     font-family: IBM Plex Sans;
     font-style: normal;
-    font-size: 4rem;
+    font-size: 3rem;
     font-weight:bold;
     color: #888888;
     padding-top: 2.5rem;
