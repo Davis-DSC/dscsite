@@ -19,8 +19,8 @@ import YouTubeIcon from '@material-ui/icons/YouTube';
 
 
 const Styles = styled.div`
-    padding-bottom: 3.5rem;
-    padding-top: 0rem;
+  
+    padding: 3.5rem 0rem;
     background-color: #FFF;
  `;
 
@@ -28,9 +28,9 @@ const Styles = styled.div`
 const Title = styled.h1`
     font-family: IBM Plex Sans;
     font-style: normal;
-    font-weight: bold;
-    font-size: 2.25rem;
-    text-align: center;
+    font-weight: normal;
+    font-size: 3rem;
+    text-align: left;
     color: #000;
     padding-bottom: .25rem;
     padding-top: 2rem;
@@ -47,18 +47,17 @@ const Himg = styled.img`
  const Subtitle = styled.h3`
      font-family: IBM Plex Sans;
      font-style: normal;
-     font-size: 1.65rem;
+     font-size: 1.25rem;
      color: #000;
-     padding: 1.75rem 2rem;
-
+     padding: 1.75rem 0rem;
      letter-spacing: 0.02rem;
  `;
 
 
  const SGrid = styled(Grid)`
     .righthead{
-      justify-content: center;
-      text-align: center;
+      justify-content: left;
+      text-align: left;
     }
 
     .headbutton{
@@ -66,9 +65,10 @@ const Himg = styled.img`
       background: linear-gradient(99.56deg, #001C84 3.37%, #BC5555 89.07%);;
       font-family: IBM Plex Sans;
       font-style: normal;
-      font-size: .9rem;
+      font-size: 1.3rem;
       font-weight: bold;
       letter-spacing: 0.1rem;
+      margin: 8.5rem 2rem;
 
       &:hover {
         background-color: black;
@@ -152,18 +152,17 @@ const Himg = styled.img`
 export const ConnectH = () => (
 
     <Styles>
-        <Container>
 
-            <Paper  style = {{background: "#FCFCFC"}} elevation={1}>
+            <Paper  style = {{background: "#"}} elevation={0}>
 
-              <Title> Connect with us </Title>
 
                 <SGrid container >
 
-                <Grid className="righthead" item sm={4}>
+                <Grid className="righthead" item sm={6}>
+                <Title>Stay updated with us.</Title>
+
                 <Subtitle>
-                        Please reach out to us for any information
-                         and connect with us on social media.</Subtitle>
+                        Share your email so DDSC can keep you updated about our events, workshops, and other data science resources. </Subtitle>
 
 
 
@@ -196,15 +195,10 @@ export const ConnectH = () => (
 
                 </Grid>
 
-                <Grid  className="righthead" item sm={4}>
 
-                  <Himg src='/data2.gif'/>
 
-                </Grid>
+                <Grid className="righthead" item sm={6}>
 
-                <Grid className="righthead" item sm={4}>
-
-                <Subtitle  >Join our mailing list.</Subtitle>
 
                        <div className="emailb" >
 
@@ -258,8 +252,7 @@ export const ConnectH = () => (
 
           </Paper>
 
-          </Container>
-      </Styles>
+       </Styles>
 
 
 
