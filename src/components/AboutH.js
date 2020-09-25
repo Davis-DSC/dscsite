@@ -6,7 +6,8 @@ import Button from '@material-ui/core/Button';
 import Container from '@material-ui/core/Container';
 
 const Styles = styled.div`
-    padding: 4rem 0rem;
+    padding-top: 15rem;
+    padding-bottom: 4rem;
 `;
 
 
@@ -55,11 +56,14 @@ const Subtitle = styled.h3`
  const SGrid = styled(Grid)`
     .righthead{
        text-align: right;
+       padding-bottom: 2rem;
     }
 
     .lefthead{
       justify-content: left;
       text-align: left;
+      padding-bottom: 2rem;
+
     }
 
     .headbutton{
