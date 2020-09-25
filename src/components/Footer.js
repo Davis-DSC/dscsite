@@ -1,6 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, Button } from 'react-bootstrap';
+import Grid from '@material-ui/core/Grid';
+import Container from '@material-ui/core/Container';
 import styled from 'styled-components';
 
 const Styles = styled.div`
@@ -10,30 +12,110 @@ const Styles = styled.div`
     font-family: IBM Plex Sans;
     font-style: normal;
     font-weight: normal;
-    font-size: .75rem;
+    font-size: 1.15rem;
     background-color: #313D67;
    }
 
   a, .navbar-nav .nav-link {
      color: ghostwhite;
-     margin-right: 4.5rem;
-     padding: 0 0.75rem;
+
 
     &:hover {
       color: grey;
     }
   }
 
+  .navbar-brand{
+    font-weight: bold;
+    font-size: 1.5rem;
+    color: ghostwhite;
+
+    &:hover {
+      color: ghostwhite;
+    }
+
+  }
+
+  img{
+    margin-bottom: .2rem;
+    margin-right:.2rem;
+
+  }
+
+  .terms {
+    color: grey;
+  }
+
+  .Title{
+    font-weight: bold;
+    font-size: 1.35rem;
+    &:hover {
+      color: ghostwhite;
+    }
+
+
+  }
+
+
+
 `;
+
+const SGrid = styled(Grid)`
+   padding-bottom: 3rem;
+   padding-top: 1rem;
+   text-align: left;
+justify-content:  ;eft;
+
+ `;
+
+
+
 
 
 export const Footer = () => (
   <Styles>
 
     <Navbar expand="lg">
-        <Nav className="mx-auto">
-             <Nav.Link href="/" style = {{margin: "0"}} >© 2020 Davis Data Science Club. All rights reserved.</Nav.Link>
-        </Nav>
+    <Container>
+        <SGrid container>
+            <Grid item sm={6} elevation={0}>
+            <Navbar.Brand  href="/">
+                <img
+                       src="/favicon6.png"
+                       width="30"
+                       height="30"
+                       className="d-inline-block align-bottom"
+                       alt="React Bootstrap logo"
+                     /> {' '} DATA SCIENCE CLUB
+            </Navbar.Brand>
+            </Grid>
+
+            <Grid   item sm={2}>
+                  <Nav.Link className="Title" href="/" style = {{margin: "0"}} >General</Nav.Link>
+                  <Nav.Link href="https://www.facebook.com/data.ucd/" style = {{margin: "0"}} >About</Nav.Link>
+                  <Nav.Link href="https://github.com/Davis-Data-Science-Club/" style = {{margin: "0"}} >Projects</Nav.Link>
+                  <Nav.Link href="https://team344737.typeform.com/to/nTDYl2" style = {{margin: "0"}} >Join</Nav.Link>
+            </Grid>
+
+            <Grid   item sm={2}>
+                  <Nav.Link className="Title" href="/" style = {{margin: "0"}} >Social Media</Nav.Link>
+                  <Nav.Link href="https://www.facebook.com/data.ucd/" style = {{margin: "0"}} >Facebook</Nav.Link>
+                  <Nav.Link href="https://www.linkedin.com/company/davisdsc" style = {{margin: "0"}} >Linkedin</Nav.Link>
+                  <Nav.Link href="https://github.com/Davis-Data-Science-Club/" style = {{margin: "0"}} >Github</Nav.Link>
+                  <Nav.Link href="https://aggielife.ucdavis.edu/organization/davisdatascience" style = {{margin: "0"}} >Aggielife</Nav.Link>
+            </Grid>
+
+            <Grid   item sm={2}>
+                  <Nav.Link className="Title" href="/" style = {{margin: "0"}} >Contact</Nav.Link>
+                  <Nav.Link href="mailto:team@davisdsc.com?" style = {{margin: "0"}} >team@davisdsc.com</Nav.Link>
+            </Grid>
+        </SGrid>
+
+        <Nav.Link href="/" style = {{margin: "0"}} className="terms">© 2020 Davis Data Science Club. All rights reserved.</Nav.Link>
+
+
+
+        </Container>
     </Navbar>
 
   </Styles >

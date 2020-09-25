@@ -116,8 +116,8 @@ const Subtitle = styled.h3`
             <Grid className="righthead" item sm={6}>
            <Paper style = {{background: "#"}} elevation={0}>
             <Subtitle>What We Do</Subtitle>
-            <Subpara> Our club is centered around events that focus on career building and developing Data Science skills.
-            We host workshops to help students with R, Python, and other technologies. We invite industry professionals to share their inside look into the field of Data Science.
+            <Subpara> Our club is centered around career building and developing Data Science skills.
+            We host workshops to help students with R, Python, and other related technologies. We also invite industry professionals to share their inside look into the field of Data Science.
              </Subpara>
              </Paper>
             </Grid>

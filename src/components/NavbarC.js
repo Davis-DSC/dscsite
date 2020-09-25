@@ -14,7 +14,6 @@ const Styles = styled.div`
     font-style: normal;
     font-weight: normal;
     font-size: 1.25rem;
-
    }
 
   a, .navbar-nav .nav-link {
