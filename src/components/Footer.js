@@ -92,22 +92,22 @@ export const Footer = () => (
 
             <Grid   item sm={2}>
                   <Nav.Link className="Title" href="/" style = {{margin: "0"}} >General</Nav.Link>
-                  <Nav.Link href="https://www.facebook.com/data.ucd/" style = {{margin: "0"}} >About</Nav.Link>
-                  <Nav.Link href="https://github.com/Davis-Data-Science-Club/" style = {{margin: "0"}} >Projects</Nav.Link>
-                  <Nav.Link href="https://team344737.typeform.com/to/nTDYl2" style = {{margin: "0"}} >Join</Nav.Link>
+                  <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >About</Nav.Link>
+                  <Nav.Link href="https://github.com/Davis-Data-Science-Club/" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Projects</Nav.Link>
+                  <Nav.Link href="https://team344737.typeform.com/to/nTDYl2" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Join</Nav.Link>
             </Grid>
 
             <Grid   item sm={2}>
                   <Nav.Link className="Title" href="/" style = {{margin: "0"}} >Social Media</Nav.Link>
-                  <Nav.Link href="https://www.facebook.com/data.ucd/" style = {{margin: "0"}} >Facebook</Nav.Link>
-                  <Nav.Link href="https://www.linkedin.com/company/davisdsc" style = {{margin: "0"}} >Linkedin</Nav.Link>
-                  <Nav.Link href="https://github.com/Davis-Data-Science-Club/" style = {{margin: "0"}} >Github</Nav.Link>
-                  <Nav.Link href="https://aggielife.ucdavis.edu/organization/davisdatascience" style = {{margin: "0"}} >Aggielife</Nav.Link>
+                  <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Facebook</Nav.Link>
+                  <Nav.Link href="https://www.linkedin.com/company/davisdsc" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Linkedin</Nav.Link>
+                  <Nav.Link href="https://github.com/Davis-Data-Science-Club/" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Github</Nav.Link>
+                  <Nav.Link href="https://aggielife.ucdavis.edu/organization/davisdatascience" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Aggielife</Nav.Link>
             </Grid>
 
             <Grid   item sm={2}>
                   <Nav.Link className="Title" href="/" style = {{margin: "0"}} >Contact</Nav.Link>
-                  <Nav.Link href="mailto:team@davisdsc.com?" style = {{margin: "0"}} >team@davisdsc.com</Nav.Link>
+                  <Nav.Link href="mailto:team@davisdsc.com?" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >team@davisdsc.com</Nav.Link>
             </Grid>
         </SGrid>
 

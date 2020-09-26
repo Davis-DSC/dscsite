@@ -206,6 +206,8 @@ export const ConnectH = () => (
                         className = "headbutton"
                         variant="contained"
                         href="https://mailchi.mp/1510cbd1c7f7/dscmail"
+                        target="_blank"
+                        rel="noopener noreferrer"
                       > Subscribe
                       </Button>
 

@@ -70,10 +70,10 @@ export const NavbarC = () => (
       </Navbar.Brand>
 
         <Nav className="ml-auto align-bottom">
-            <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank">About</Nav.Link>
-            <Nav.Link href="https://github.com/Davis-Data-Science-Club" target="_blank">Projects</Nav.Link>
+            <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank" rel="noopener noreferrer">About</Nav.Link>
+            <Nav.Link href="https://github.com/Davis-Data-Science-Club" target="_blank" rel="noopener noreferrer">Projects</Nav.Link>
     {  /*      <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank">Blog</Nav.Link> */}
-            <Nav.Link href="https://team344737.typeform.com/to/nTDYl2" target="_blank" style = {{margin: "0"}} >Join</Nav.Link>
+            <Nav.Link href="https://team344737.typeform.com/to/nTDYl2" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Join</Nav.Link>
         </Nav>
       </Navbar.Collapse>
 
