@@ -89,7 +89,7 @@ const Subtitle = styled.h3`
 
 <Styles>
 
-    <Paper elevation={0}>
+
 
     <Title>Our Club</Title>
 
@@ -98,11 +98,11 @@ const Subtitle = styled.h3`
              <Grid className="lefthead" item sm={6}>
             <Paper style = {{background: "#"}} elevation={0}>
              <Subtitle>Who We Are</Subtitle>
-             <Subpara> We are a small group of students
-             that are drawn together by our passion for Data Science and helping our community.
+             <Subpara> We are a group of students
+             that were brought together by our passion for Data Science and helping our community.
              </Subpara>
               </Paper>
-             </Grid>
+             </Grid> 
 
 
             <Grid className="righthead" item sm={6}>
@@ -130,7 +130,6 @@ const Subtitle = styled.h3`
 
         </SGrid>
 
-      </Paper>
 
    </Styles>
 

@@ -61,7 +61,7 @@ const Himg = styled.img`
 
     .headbutton{
       color: white;
-      background: linear-gradient(99.56deg, #001C84 3.37%, #BC5555 89.07%);;
+      background: linear-gradient(99.56deg, #2E3BAE 3.37%, #BC5555 89.07%);;
       font-family: IBM Plex Sans;
       font-style: normal;
       font-size: 1.3rem;
@@ -152,7 +152,6 @@ export const ConnectH = () => (
 
     <Styles>
 
-            <Paper  style = {{background: "#"}} elevation={0}>
 
 
                 <SGrid container >
@@ -251,7 +250,6 @@ export const ConnectH = () => (
 
 
 
-          </Paper>
 
        </Styles>
 
