@@ -97,15 +97,6 @@ const Position = styled.h3`
 
           <Grid item xs={3}>
             <Paper elevation={0}>
-                <Himg src='/kid.png'/>
-                <Name>Kideok Kwon</Name>
-                <Position>Career & Development</Position>
-            </Paper>
-          </Grid>
-
-
-          <Grid item xs={3}>
-            <Paper elevation={0}>
                 <Himg src='/adi.png'/>
                 <Name>Aditya Kallepalli</Name>
                 <Position>Projects</Position>

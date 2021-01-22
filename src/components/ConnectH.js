@@ -16,6 +16,7 @@ import GitHubIcon from '@material-ui/icons/GitHub';
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import YouTubeIcon from '@material-ui/icons/YouTube';
+import InstagramIcon from '@material-ui/icons/Instagram';
 
 
 const Styles = styled.div`
@@ -170,22 +171,26 @@ export const ConnectH = () => (
                        <FacebookIcon className="iconz" />
                        </IconButton>
 
+                       <IconButton href="https://www.instagram.com/data.ucd/" target="_blank" aria-label="Facebook">
+                       <InstagramIcon className="iconz" />
+                       </IconButton>
+
                        <IconButton href="https://github.com/Davis-Data-Science-Club" target="_blank" aria-label="Github">
-                        <GitHubIcon className="iconz"/>
-                        </IconButton>
+                       <GitHubIcon className="iconz"/>
+                       </IconButton>
 
                         <IconButton href="https://www.linkedin.com/company/davisdsc/" target="_blank" aria-label="LinkedIn">
-                         <LinkedInIcon className="iconz"/>
-                         </IconButton>
+                        <LinkedInIcon className="iconz"/>
+                        </IconButton>
 
-                         <IconButton href="mailto:team@davisdsc.com?" target="_top" aria-label="Email">
-                          <MailOutlineIcon className="iconz"/>
-                          </IconButton>
+                      <IconButton href="mailto:team@davisdsc.com?" target="_top" aria-label="Email">
+                      <MailOutlineIcon className="iconz"/>
+                      </IconButton>
 
 
                       <IconButton href="https://www.youtube.com/channel/UCXZPSQnLX1qLw-N19HKXKaA?view_as=subscriber" target="_blank" aria-label="Youtube">
-                       <YouTubeIcon className="iconz"/>
-                       </IconButton>
+                      <YouTubeIcon className="iconz"/>
+                      </IconButton>
 
 
                    </ButtonGroup>
