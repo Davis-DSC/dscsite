@@ -74,7 +74,7 @@ export const NavbarC = () => (
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank" rel="noopener noreferrer">Events</Nav.Link>
     {  /*      <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank">Blog</Nav.Link> */}
-            <Nav.Link href="https://team344737.typeform.com/to/nTDYl2" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Join</Nav.Link>
+            <Nav.Link href="https://discord.com/invite/TvEc7ca" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Join</Nav.Link>
         </Nav>
       </Navbar.Collapse>
 

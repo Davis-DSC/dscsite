@@ -79,7 +79,7 @@ const Position = styled.h3`
 
           <Grid item xs={3}>
             <Paper elevation={0}>
-                <Himg src='/vish.png'/>
+                <Himg src='/ddsc_2021/vish.png'/>
                 <Name>Vishnu Rangiah</Name>
                 <Position>President</Position>
             </Paper>
@@ -88,7 +88,7 @@ const Position = styled.h3`
 
           <Grid item xs={3}>
             <Paper elevation={0}>
-                <Himg src='/isa.png'/>
+                <Himg src='/ddsc_2021/isa.png'/>
                 <Name>Isabelle Zuroske</Name>
                 <Position>Treasurer</Position>
             </Paper>
@@ -97,20 +97,91 @@ const Position = styled.h3`
 
           <Grid item xs={3}>
             <Paper elevation={0}>
-                <Himg src='/adi.png'/>
+                <Himg src='/ddsc_2021/adi.png'/>
                 <Name>Aditya Kallepalli</Name>
-                <Position>Projects</Position>
+                <Position>Internal Affairs</Position>
             </Paper>
           </Grid>
 
 
           <Grid item xs={3}>
             <Paper elevation={0}>
-                <Himg src='/pat.png'/>
-                <Name>Patrick Soong</Name>
-                <Position>Career & Development</Position>
+                <Himg src='/ddsc_2021/nathan.png'/>
+                <Name>Nathan Chan</Name>
+                <Position>Projects Lead</Position>
             </Paper>
           </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/anto.png'/>
+                <Name>Antonio Pelayo Ramirez</Name>
+                <Position>Education Director</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/sha.png'/>
+                <Name>Sharon Vien</Name>
+                <Position>Social Media Director</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/sayl.png'/>
+                <Name>Sandra Lee</Name>
+                <Position>Social Media Director</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/udir.png'/>
+                <Name>Udirno Chaudhuri</Name>
+                <Position>Career & Development Director</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/shdra.png'/>
+                <Name>Shraddha Jhingan</Name>
+                <Position>Career & Development Director</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/anch.png'/>
+                <Name>Anchal Lamba</Name>
+                <Position>External Affairs</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/gau.png'/>
+                <Name>Gaurav Patanker</Name>
+                <Position>External Affairs</Position>
+            </Paper>
+          </Grid>
+
+          <Grid item xs={3}>
+            <Paper elevation={0}>
+                <Himg src='/ddsc_2021/ivan.png'/>
+                <Name>Ivan Yang</Name>
+                <Position>External Affairs</Position>
+            </Paper>
+          </Grid>
+
+          
+
+          
+
+
+
 
     </Grid>
 

@@ -17,7 +17,7 @@ import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import MailOutlineIcon from '@material-ui/icons/MailOutline';
 import YouTubeIcon from '@material-ui/icons/YouTube';
 import InstagramIcon from '@material-ui/icons/Instagram';
-
+import ChatIcon from '@material-ui/icons/Chat';
 
 const Styles = styled.div`
     padding: 3.5rem 0rem;
@@ -171,8 +171,12 @@ export const ConnectH = () => (
                        <FacebookIcon className="iconz" />
                        </IconButton>
 
-                       <IconButton href="https://www.instagram.com/data.ucd/" target="_blank" aria-label="Facebook">
+                       <IconButton href="https://www.instagram.com/data.ucd/" target="_blank" aria-label="Instagram">
                        <InstagramIcon className="iconz" />
+                       </IconButton>
+
+                       <IconButton href="https://discord.com/invite/TvEc7ca" target="_blank" aria-label="Discord">
+                       <ChatIcon className="iconz" />
                        </IconButton>
 
                        <IconButton href="https://github.com/Davis-Data-Science-Club" target="_blank" aria-label="Github">

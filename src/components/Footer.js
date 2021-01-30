@@ -103,7 +103,7 @@ export const Footer = () => (
                   <Nav.Link href="https://www.instagram.com/data.ucd/" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Instagram</Nav.Link>
                   <Nav.Link href="https://www.linkedin.com/company/davisdsc" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Linkedin</Nav.Link>
                   <Nav.Link href="https://github.com/Davis-Data-Science-Club/" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Github</Nav.Link>
-                  <Nav.Link href="https://aggielife.ucdavis.edu/organization/davisdatascience" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Aggielife</Nav.Link>
+                  <Nav.Link href="https://discord.com/invite/TvEc7ca" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Discord</Nav.Link>
             </Grid>
 
             <Grid   item sm={2}>
