@@ -3,20 +3,23 @@ import styled from "styled-components";
 import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
+import { FaAngleRight } from "react-icons/fa";
+
+//Everything from Mission
 
 const Styles = styled.div`
   padding-top: 5.5rem;
   padding-bottom: 4rem;
 `;
 
+//From Team
 const Title = styled.h1`
   font-family: IBM Plex Sans;
   font-style: normal;
-  font-weight: normal;
-  font-size: 5rem;
-  padding-bottom: 0.5rem;
-
-  color: #000;
+  font-weight: bold;
+  font-size: 3rem;
+  padding-bottom: 3rem;
+  color: #3846c6;
 `;
 
 const Himg = styled.img`
@@ -25,7 +28,7 @@ const Himg = styled.img`
   max-width: 722px;
 `;
 
-const Subtitle = styled.h3`
+const Description = styled.h3`
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: bold;
@@ -69,10 +72,10 @@ const SGrid = styled(Grid)`
   }
 `;
 
-export const Join = () => (
+export const Joinpage = () => (
   <Styles>
     <Title>How to join as an official member</Title>
-    <Subtitle>
+    <Description>
       Go to Davis Data Science Club group on UC Davis{" "}
       <a
         href="https://aggielife.ucdavis.edu/feeds?type=club&type_id=39365&tab=home"
@@ -85,13 +88,33 @@ export const Join = () => (
       </a>{" "}
       website and click the "Join Group" button on the top right corner of Home
       page.
-    </Subtitle>
+    </Description>
 
     <Title>How to become an officer</Title>
-    <Subtitle>
+    <Description>
       We open recruitment application every spring quarter. We will announce
       open positions and application process in our social media, please keep an
       eye out!
-    </Subtitle>
+    </Description>
+
+    <Title>Frequently asked questions</Title>
+    <Description>
+      <FaAngleRight /> Do I need experience to apply to be an officer?
+    </Description>
+
+    <Description>
+      We are open to all majors, years, and experience levels, so do not
+      hesitate to apply! Yet, for Technical Team officer, programming and
+      statistical knowledge is preferred.
+    </Description>
   </Styles>
 );
+
+/* const data = [
+{
+  question: 'Do I need experience to join as an officer?',
+  answer: 
+  'We are open to all majors, years, and experience levels, so do not hesitate to apply! Yet, for Technical Team officer, programming and statistical knowledge is preferred',
+}
+
+]*/
