@@ -37,7 +37,6 @@ const Subtitle = styled.h3`
   letter-spacing: 0.02rem;
 `;
 
-
 const Name = styled.h1`
   font-family: IBM Plex Sans;
   font-style: normal;
@@ -61,7 +60,7 @@ const SGrid = styled(Grid)``;
 export const Team = () => (
   <Styles>
     <Title>Leadership of 2022-2023</Title>
-    
+
     <Subtitle>Internal Affairs</Subtitle>
 
     <SGrid container>
@@ -89,32 +88,34 @@ export const Team = () => (
             <Position>Vice President</Position>
           </Paper>
         </Grid>
-        </SGrid>
-
-        <Subtitle>Treasurer</Subtitle>
-
-<SGrid container>
-  <Grid container spacing={7}>
-    <Grid item xs={3}>
-      <Paper elevation={0}>
-        <Himg src="/ddsc_2021/vish.png" />
-        <Name>Vishnu Rangiah</Name>
-        <Position>President</Position>
-      </Paper>
-    </Grid>
-
-    <Grid item xs={3}>
-      <Paper elevation={0}>
-        <Himg src="/ddsc_2021/isa.png" />
-        <Name>Isabelle Zuroske</Name>
-        <Position>Treasurer</Position>
-      </Paper>
-    </Grid>
+      </Grid>
     </SGrid>
 
+    <Subtitle>Treasurer</Subtitle>
 
-      <Subtitle>External Affairs</Subtitle>  
-      <SGrid container>
+    <SGrid container>
+      <Grid container spacing={7}>
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_2021/vish.png" />
+            <Name>Vivek</Name>
+            <Position>Treasurer</Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_2021/isa.png" />
+            <Name>Isabelle Zuroske</Name>
+            <Position>Treasurer</Position>
+          </Paper>
+        </Grid>
+      </Grid>
+    </SGrid>
+
+    <Subtitle>External Affairs</Subtitle>
+    <SGrid container>
+      <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
             <Himg src="/ddsc_2021/nathan.png" />
