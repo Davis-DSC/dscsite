@@ -18,7 +18,7 @@ const Title = styled.h1`
   font-style: normal;
   font-weight: bold;
   font-size: 3rem;
-  padding-bottom: 2.5rem;
+  padding-bottom: 2rem;
   color: #3846c6;
   padding-top: 3rem;
 `;
@@ -35,10 +35,10 @@ const Description = styled.h3`
   font-weight: bold;
   font-size: 1.5rem;
   color: #000;
-  padding-top: 2.75rem;
+  padding-top: 2.5rem;
   padding-bottom: 1rem;
   letter-spacing: 0.02rem;
-
+  margin-bottom: 3rem;
   .grade {
     color: #3846c6;
   }
@@ -100,13 +100,10 @@ export const Joinpage = () => (
 
     <Title>Frequently asked questions</Title>
     <Description>
-      <FaAngleRight /> Do I need experience to apply to be an officer?
-    </Description>
-
-    <Description>
-      We are open to all majors, years, and experience levels, so do not
-      hesitate to apply! Yet, for Technical Team officer, programming and
-      statistical knowledge is preferred.
+      <FaAngleRight /> Do I need experience to apply to be an officer? We are
+      open to all majors, years, and experience levels, so do not hesitate to
+      apply! Yet, for Technical Team officer, programming and statistical
+      knowledge is preferred.
     </Description>
   </Styles>
 );

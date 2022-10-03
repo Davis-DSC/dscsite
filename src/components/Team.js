@@ -21,8 +21,8 @@ const Title = styled.h1`
 
 //changed height auto -> 390px width 100% -> 390px
 const Himg = styled.img`
-  width: 390px;
-  height: 390px;
+  width: 20%;
+  height: 20%;
   max-width: 722px;
   object-fit: cover;
 `;
@@ -149,8 +149,12 @@ export const Team = () => (
             <Position></Position>
           </Paper>
         </Grid>
+      </Grid>
+    </SGrid>
 
-        <Subtitle>Career & Development</Subtitle>
+    <Subtitle>Career & Development</Subtitle>
+    <SGrid container>
+      <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
             <Himg src="/ddsc_22-23/s_jhingan.jpeg" />
@@ -166,8 +170,12 @@ export const Team = () => (
             <Position></Position>
           </Paper>
         </Grid>
+      </Grid>
+    </SGrid>
 
-        <Subtitle>Social Media</Subtitle>
+    <Subtitle>Social Media</Subtitle>
+    <SGrid container>
+      <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
             <Himg src="/ddsc_22-23/r_siddique.jpeg" />
@@ -199,9 +207,12 @@ export const Team = () => (
             <Position></Position>
           </Paper>
         </Grid>
+      </Grid>
+    </SGrid>
 
-        <Subtitle>Technical Team</Subtitle>
-
+    <Subtitle>Technical Team</Subtitle>
+    <SGrid container>
+      <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
             <Himg src="/ddsc_22-23/s_vinnakota.jpeg" />
