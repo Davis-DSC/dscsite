@@ -67,23 +67,23 @@ export const Team = () => (
       <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/vish.png" />
+            <Himg src="/ddsc_22-23/a_seth.png" />
             <Name>Aditya Seth</Name>
-            <Position>President</Position>
+            <Position>President & Technical Team Director</Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/isa.png" />
+            <Himg src="/ddsc_22-23/c_chen.jpeg" />
             <Name>Cindy Chen</Name>
-            <Position>Vice President</Position>
+            <Position>Vice President & Social Media Director</Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/adi.png" />
+            <Himg src="/ddsc_22-23/o_yoon.jpeg" />
             <Name>Olivia Yoon</Name>
             <Position>Vice President</Position>
           </Paper>
@@ -97,17 +97,17 @@ export const Team = () => (
       <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/vish.png" />
-            <Name>Vivek</Name>
-            <Position>Treasurer</Position>
+            <Himg src="/ddsc_22-23/v_shome.jpeg" />
+            <Name>Vivek Shome</Name>
+            <Position></Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/isa.png" />
-            <Name>Isabelle Zuroske</Name>
-            <Position>Treasurer</Position>
+            <Himg src="/ddsc_22-23/l_chang.png" />
+            <Name>Lucas Chang</Name>
+            <Position></Position>
           </Paper>
         </Grid>
       </Grid>
@@ -118,47 +118,41 @@ export const Team = () => (
       <Grid container spacing={7}>
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/nathan.png" />
-            <Name>Nathan Chan</Name>
-            <Position>Projects Lead</Position>
+            <Himg src="/ddsc_22-23/o_gonzalez.png" />
+            <Name>Omar Mora-Gonzalez</Name>
+            <Position></Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/anto.png" />
-            <Name>Antonio Pelayo Ramirez</Name>
-            <Position>Education Director</Position>
+            <Himg src="/ddsc_22-23/a_lobo.jpeg" />
+            <Name>Aatish Lobo</Name>
+            <Position></Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/sha.png" />
-            <Name>Sharon Vien</Name>
-            <Position>Social Media Director</Position>
+            <Himg src="/ddsc_22-23/k_arukala.jpeg" />
+            <Name>Krithin Arukala</Name>
+            <Position></Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/sayl.png" />
-            <Name>Sandra Lee</Name>
-            <Position>Social Media Director</Position>
+            <Himg src="/ddsc_22-23/k_guanzon.jpeg" />
+            <Name>Kyle Guanzon</Name>
+            <Position></Position>
           </Paper>
         </Grid>
 
-        <Grid item xs={3}>
-          <Paper elevation={0}>
-            <Himg src="/ddsc_2021/udir.png" />
-            <Name>Udirno Chaudhuri</Name>
-            <Position>Career & Development Director</Position>
-          </Paper>
-        </Grid>
+        <Subtitle>Career & Development</Subtitle>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/shdra.png" />
+            <Himg src="/ddsc_22-23/s_jhingan.jpeg" />
             <Name>Shraddha Jhingan</Name>
             <Position>Career & Development Director</Position>
           </Paper>
@@ -166,25 +160,133 @@ export const Team = () => (
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/anch.png" />
-            <Name>Anchal Lamba</Name>
-            <Position>External Affairs</Position>
+            <Himg src="/ddsc_22-23/a_rajpal.jpeg" />
+            <Name>Arya Julka Rajpal</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Subtitle>Social Media</Subtitle>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/r_siddique.jpeg" />
+            <Name>Ruqayyah Siddique</Name>
+            <Position>Social Media Director</Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/gau.png" />
-            <Name>Gaurav Patanker</Name>
-            <Position>External Affairs</Position>
+            <Himg src="/ddsc_22-23/c_hsieh.png" />
+            <Name>Claire Hsieh</Name>
+            <Position></Position>
           </Paper>
         </Grid>
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_2021/ivan.png" />
-            <Name>Ivan Yang</Name>
-            <Position>External Affairs</Position>
+            <Himg src="/ddsc_22-23/s_monga.jpeg" />
+            <Name>Smarpan (Summer) Monga</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/a_zhang.jpeg" />
+            <Name>Amy Zhang</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Subtitle>Technical Team</Subtitle>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/s_vinnakota.jpeg" />
+            <Name>Siddarth Vinnakota</Name>
+            <Position>Technical Team Director</Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/n_liu.jpeg" />
+            <Name>Nathan Liu</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/n_kaluvai.jpeg" />
+            <Name>Nirmal Kaluvai</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/d_wang_jpeg" />
+            <Name>Ru Han (Dave) Wang</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/a_travers.jpeg" />
+            <Name>Aurora Travers</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/j_sheth.jpeg" />
+            <Name>Jenisa Sheth</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/l_barrett.jpeg" />
+            <Name>Lukas Barrett</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/ivan.png" />
+            <Name>Joshua choi</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/v_huang.jpg" />
+            <Name>Vincent huang</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/a_wu.jpeg" />
+            <Name>Wun-Syuan (Allie) Wu</Name>
+            <Position></Position>
+          </Paper>
+        </Grid>
+
+        <Grid item xs={3}>
+          <Paper elevation={0}>
+            <Himg src="/ddsc_22-23/j_mema.jpeg" />
+            <Name>John Mema</Name>
+            <Position></Position>
           </Paper>
         </Grid>
       </Grid>
