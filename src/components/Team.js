@@ -24,6 +24,7 @@ const Himg = styled.img`
   width: 390px;
   height: 390px;
   max-width: 722px;
+  object-fit: cover;
 `;
 
 //1.25 -> 1.5
