@@ -21,6 +21,7 @@ const Title = styled.h1`
   padding-bottom: 2rem;
   color: #3846c6;
   padding-top: 3rem;
+  margin-bottom: 1rem;
 `;
 
 const Himg = styled.img`
@@ -29,16 +30,25 @@ const Himg = styled.img`
   max-width: 722px;
 `;
 
-const Description = styled.h3`
+const Para = styled.h2`
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: bold;
+  font-size: 1.8rem;
+  color: #000;
+  padding-bottom: 1.5rem;
+  letter-spacing: 0.02rem;
+`;
+
+const Subpara = styled.h3`
+  font-family: IBM Plex Sans;
+  font-style: normal;
+  font-weight: normal;
   font-size: 1.5rem;
   color: #000;
-  padding-top: 2.5rem;
   padding-bottom: 1rem;
-  letter-spacing: 0.02rem;
   margin-bottom: 3rem;
+  letter-spacing: 0.03rem;
   .grade {
     color: #3846c6;
   }
@@ -76,35 +86,39 @@ const SGrid = styled(Grid)`
 export const Joinpage = () => (
   <Styles>
     <Title>How to join as an official member</Title>
-    <Description>
+    <Subpara>
       Go to Davis Data Science Club group on UC Davis{" "}
-      <a
-        href="https://aggielife.ucdavis.edu/feeds?type=club&type_id=39365&tab=home"
-        target="_blank"
-        rel="noopener noreferrer"
-        className="grade"
-      >
-        {" "}
-        Aggie Life{" "}
-      </a>{" "}
+      <b>
+        <a
+          href="https://aggielife.ucdavis.edu/feeds?type=club&type_id=39365&tab=home"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="grade"
+        >
+          {" "}
+          Aggie Life{" "}
+        </a>
+      </b>{" "}
       website and click the "Join Group" button on the top right corner of Home
       page.
-    </Description>
+    </Subpara>
 
     <Title>How to become an officer</Title>
-    <Description>
+    <Subpara>
       We open recruitment application every spring quarter. We will announce
       open positions and application process in our social media, please keep an
       eye out!
-    </Description>
+    </Subpara>
 
     <Title>Frequently asked questions</Title>
-    <Description>
-      <FaAngleRight /> Do I need experience to apply to be an officer? {"\n"}
+    <Para>
+      <FaAngleRight /> Do I need experience to apply to be an officer?
+    </Para>
+    <Subpara>
       We are open to all majors, years, and experience levels, so do not
       hesitate to apply! Yet, for Technical Team officer, programming and
       statistical knowledge is preferred.
-    </Description>
+    </Subpara>
   </Styles>
 );
 
