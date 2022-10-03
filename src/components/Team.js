@@ -9,19 +9,20 @@ const Styles = styled.div`
   padding-bottom: 10rem;
 `;
 
-//2rem -> 3rem
+//2rem -> 3rem -> 2.5
 const Title = styled.h1`
   font-family: IBM Plex Sans;
   font-style: normal;
   font-weight: bold;
-  font-size: 3rem;
+  font-size: 2.5rem;
   padding-bottom: 3rem;
   color: #3846c6;
 `;
 
+//changed height auto -> 390px width 100% -> 390px
 const Himg = styled.img`
-  width: 100%;
-  height: auto;
+  width: 390px;
+  height: 390px;
   max-width: 722px;
 `;
 
@@ -149,7 +150,6 @@ export const Team = () => (
         </Grid>
 
         <Subtitle>Career & Development</Subtitle>
-
         <Grid item xs={3}>
           <Paper elevation={0}>
             <Himg src="/ddsc_22-23/s_jhingan.jpeg" />
@@ -167,7 +167,6 @@ export const Team = () => (
         </Grid>
 
         <Subtitle>Social Media</Subtitle>
-
         <Grid item xs={3}>
           <Paper elevation={0}>
             <Himg src="/ddsc_22-23/r_siddique.jpeg" />
@@ -228,7 +227,7 @@ export const Team = () => (
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_22-23/d_wang_jpeg" />
+            <Himg src="/ddsc_22-23/d_wang.jpeg" />
             <Name>Ru Han (Dave) Wang</Name>
             <Position></Position>
           </Paper>
@@ -260,7 +259,7 @@ export const Team = () => (
 
         <Grid item xs={3}>
           <Paper elevation={0}>
-            <Himg src="/ddsc_22-23/ivan.png" />
+            <Himg src="/ddsc_22-23/j_choi.png" />
             <Name>Joshua choi</Name>
             <Position></Position>
           </Paper>

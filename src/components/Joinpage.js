@@ -18,8 +18,9 @@ const Title = styled.h1`
   font-style: normal;
   font-weight: bold;
   font-size: 3rem;
-  padding-bottom: 3rem;
+  padding-bottom: 2.5rem;
   color: #3846c6;
+  padding-top: 3rem;
 `;
 
 const Himg = styled.img`
@@ -35,7 +36,7 @@ const Description = styled.h3`
   font-size: 1.5rem;
   color: #000;
   padding-top: 2.75rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   letter-spacing: 0.02rem;
 
   .grade {
