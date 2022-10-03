@@ -100,10 +100,10 @@ export const Joinpage = () => (
 
     <Title>Frequently asked questions</Title>
     <Description>
-      <FaAngleRight /> Do I need experience to apply to be an officer? We are
-      open to all majors, years, and experience levels, so do not hesitate to
-      apply! Yet, for Technical Team officer, programming and statistical
-      knowledge is preferred.
+      <FaAngleRight /> Do I need experience to apply to be an officer? {"\n"}
+      We are open to all majors, years, and experience levels, so do not
+      hesitate to apply! Yet, for Technical Team officer, programming and
+      statistical knowledge is preferred.
     </Description>
   </Styles>
 );
