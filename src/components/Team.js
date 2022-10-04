@@ -21,7 +21,8 @@ const Title = styled.h1`
 
 //changed height auto -> 390px width 100% -> 390px
 const Himg = styled.img`
-  height: auto;
+  width: 300px;
+  height: 300px;
   max-width: 100%;
   object-fit: cover;
 `;
