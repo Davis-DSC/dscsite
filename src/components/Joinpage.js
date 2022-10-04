@@ -106,8 +106,19 @@ export const Joinpage = () => (
     <Title>How to become an officer</Title>
     <Subpara>
       We open recruitment application every spring quarter. We will announce
-      open positions and application process in our social media, please keep an
-      eye out!
+      open positions and application process in our{" "}
+      <b>
+        <a
+          href="https://aggielife.ucdavis.edu/feeds?type=club&type_id=39365&tab=home"
+          target="_blank"
+          rel="noopener noreferrer"
+          className="grade"
+        >
+          {" "}
+          social media{" "}
+        </a>
+      </b>{" "}
+      , please keep an eye out!
     </Subpara>
 
     <Title>Frequently asked questions</Title>
