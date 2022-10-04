@@ -26,8 +26,8 @@ const Himg = styled.img`
   max-width: 100%;
   object-fit: cover;
   @media screen and (max-width: 48rem) {
-    width: 15px;
-    height: 15px;
+    width: 120px;
+    height: 120px;
   }
 `;
 
