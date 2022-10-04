@@ -23,12 +23,7 @@ const Title = styled.h1`
 const Himg = styled.img`
   width: 300px;
   height: 300px;
-  max-width: 100%;
-  object-fit: cover;
-  @media screen and (max-width: 48rem) {
-    width: 120px;
-    height: 120px;
-  }
+  object-fit: scale-down;
 `;
 
 //1.25 -> 1.5
