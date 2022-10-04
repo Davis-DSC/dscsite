@@ -109,7 +109,7 @@ export const Joinpage = () => (
       open positions and application process in our{" "}
       <b>
         <a
-          href="https://aggielife.ucdavis.edu/feeds?type=club&type_id=39365&tab=home"
+          href="https://www.instagram.com/data.ucd/"
           target="_blank"
           rel="noopener noreferrer"
           className="grade"
