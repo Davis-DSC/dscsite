@@ -1,35 +1,31 @@
-import React, { Component } from 'react';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
-import { Homepage } from './components/Homepage';
-import { Aboutpage } from './components/Aboutpage';
-import { NavbarC } from './components/NavbarC';
-import { Footer } from './components/Footer';
-import Container from '@material-ui/core/Container';
-
-
+import React, { Component } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import { Homepage } from "./components/Homepage";
+import { Aboutpage } from "./components/Aboutpage";
+import { Joinpage } from "./components/Joinpage";
+import { NavbarC } from "./components/NavbarC";
+import { Footer } from "./components/Footer";
+import Container from "@material-ui/core/Container";
 
 class App extends Component {
   render() {
     return (
       <React.Fragment>
         <Router>
+          <NavbarC />
 
-              <NavbarC />
+          <Container>
+            <Switch>
+              <Route path="/" exact component={Homepage} />
+              <Route path="/about" component={Aboutpage} />
+              <Route path="/join" component={Joinpage} />
+              <Route path="*" component={Homepage} />
+            </Switch>
+          </Container>
 
-              <Container>
-              <Switch>
-                <Route path='/' exact component={Homepage} />
-                <Route path='/about' component={Aboutpage} />
-
-                <Route path='*' component={Homepage} />
-
-              </Switch>
-              </Container>
-
-              <Footer />
-
+          <Footer />
         </Router>
-       </React.Fragment>
+      </React.Fragment>
     );
   }
 }
