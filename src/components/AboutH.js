@@ -122,23 +122,9 @@ const Subtitle = styled.h3`
              </Paper>
             </Grid>
 
-
-
-
-
-
-
         </SGrid>
 
-
    </Styles>
-
-
-
-
-
-
-
 
 
 

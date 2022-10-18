@@ -55,6 +55,7 @@ export const NavbarC = () => (
         <Navbar.Toggle aria-controls="basic-navbar-nav" />
 
         <Navbar.Collapse id="basic-navbar-nav">
+          
           <Navbar.Brand href="/">
             <img
               src="/favicon.ico"
@@ -67,18 +68,25 @@ export const NavbarC = () => (
           </Navbar.Brand>
 
           <Nav className="ml-auto align-bottom">
+
             <Nav.Link href="/about">About</Nav.Link>
-            <Nav.Link
+
+            <Nav.Link href="/events">Events</Nav.Link>
+
+            {/* <Nav.Link
               href="https://www.facebook.com/data.ucd/"
               target="_blank"
-              rel="noopener noreferrer"
-            >
+              rel="noopener noreferrer">
               Events
-            </Nav.Link>
+            </Nav.Link> */}
+
             {/*      <Nav.Link href="https://www.facebook.com/data.ucd/" target="_blank">Blog</Nav.Link> */}
             {/*<Nav.Link href="https://discord.com/invite/TvEc7ca" target="_blank" rel="noopener noreferrer" style = {{margin: "0"}} >Join Us</Nav.Link>*/}
+            
             <Nav.Link href="/join">Join Us</Nav.Link>
+          
           </Nav>
+
         </Navbar.Collapse>
       </Navbar>
     </Container>
