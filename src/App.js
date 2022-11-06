@@ -3,6 +3,7 @@ import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { Homepage } from "./components/Homepage";
 import { Aboutpage } from "./components/Aboutpage";
 import { Joinpage } from "./components/Joinpage";
+import { Eventpage } from "./components/Eventpage";
 import { NavbarC } from "./components/NavbarC";
 import { Footer } from "./components/Footer";
 import Container from "@material-ui/core/Container";
@@ -19,7 +20,9 @@ class App extends Component {
               <Route path="/" exact component={Homepage} />
               <Route path="/about" component={Aboutpage} />
               <Route path="/join" component={Joinpage} />
+              <Route path="/event" component={Eventpage} />
               <Route path="*" component={Homepage} />
+
             </Switch>
           </Container>
 
