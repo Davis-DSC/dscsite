@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import Calendar from "@ericz1803/react-google-calendar";
 import { TramRounded } from "@material-ui/icons";
+import ReactGA from "@react-ga/react-ga";
 
 ReactGA.pageview(window.location.pathname + window.location.search);
 
