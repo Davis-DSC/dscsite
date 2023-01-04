@@ -2,8 +2,10 @@ import React from "react";
 import styled from "styled-components";
 import Calendar from "@ericz1803/react-google-calendar";
 import { TramRounded } from "@material-ui/icons";
-import ReactGA from "@react-ga/react-ga";
+import ReactGA from "react-ga";
 
+const TRACKING_ID = "G-KDXMSSG090";
+ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
 const CALENDAR_API_KEY = process.env.REACT_APP_CALENDAR_API_KEY;

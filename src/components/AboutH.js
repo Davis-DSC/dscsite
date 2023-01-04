@@ -4,9 +4,6 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import Container from "@material-ui/core/Container";
-import ReactGA from "@react-ga/react-ga";
-
-ReactGA.pageview(window.location.pathname + window.location.search);
 
 const Styles = styled.div`
   padding-top: 15rem;

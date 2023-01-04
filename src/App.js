@@ -7,17 +7,10 @@ import { Eventpage } from "./components/Eventpage";
 import { NavbarC } from "./components/NavbarC";
 import { Footer } from "./components/Footer";
 import Container from "@material-ui/core/Container";
-import ReactGA from "@react-ga/react-ga";
+import ReactGA from "react-ga";
 
 const TRACKING_ID = "G-KDXMSSG090";
 ReactGA.initialize(TRACKING_ID);
-ReactGA.initialize(TRACKING_ID, {
-  debug: true,
-  titleCase: false,
-  gaOptions: {
-    userId: 123,
-  },
-});
 
 class App extends Component {
   render() {
