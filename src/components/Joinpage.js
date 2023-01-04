@@ -5,6 +5,8 @@ import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import { FaAngleRight } from "react-icons/fa";
 
+ReactGA.pageview(window.location.pathname + window.location.search);
+
 //Everything from Mission
 
 const Styles = styled.div`
