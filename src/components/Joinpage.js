@@ -4,6 +4,11 @@ import Grid from "@material-ui/core/Grid";
 import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 import { FaAngleRight } from "react-icons/fa";
+import ReactGA from "react-ga";
+
+const TRACKING_ID = "G-KDXMSSG090";
+ReactGA.initialize(TRACKING_ID);
+ReactGA.pageview(window.location.pathname + window.location.search);
 
 //Everything from Mission
 
