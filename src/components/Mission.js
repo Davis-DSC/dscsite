@@ -5,8 +5,8 @@ import Paper from "@material-ui/core/Paper";
 import Button from "@material-ui/core/Button";
 
 const Styles = styled.div`
-  padding-top: 5.5rem;
-  padding-bottom: 4rem;
+  padding-top: 4rem;
+  padding-bottom: 2rem;
 `;
 
 const Title = styled.h1`
@@ -32,7 +32,7 @@ const Subtitle = styled.h3`
   font-size: 1.5rem;
   color: #000;
   padding-top: 2.75rem;
-  padding-bottom: 1.5rem;
+  padding-bottom: 1rem;
   letter-spacing: 0.02rem;
 
   .grade {
