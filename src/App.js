@@ -8,6 +8,8 @@ import { NavbarC } from "./components/NavbarC";
 import { Footer } from "./components/Footer";
 import Container from "@material-ui/core/Container";
 import ReactGA from "react-ga";
+import { Newspage } from "./components/Newspage";
+import { AlumniPage } from "./components/AlumniPage";
 
 const TRACKING_ID = "G-KDXMSSG090";
 ReactGA.initialize(TRACKING_ID);
@@ -25,6 +27,8 @@ class App extends Component {
               <Route path="/about" component={Aboutpage} />
               <Route path="/join" component={Joinpage} />
               <Route path="/event" component={Eventpage} />
+              <Route path="/news" component={Newspage} />
+              <Route path="/alumni" component={AlumniPage} />
               <Route path="*" component={Homepage} />
             </Switch>
           </Container>

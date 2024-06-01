@@ -18,25 +18,12 @@ const Title = styled.h1`
   font-style: normal;
   font-weight: bold;
   font-size: 2.5rem;
-  padding-top: 2rem;
-  padding-bottom: 3rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
   color: #3846c6;
+  text-align: center;
 `;
 
-// const OfficersImg = styled.img`
-//   width: 250px;
-//   height: 250px;
-//   object-fit: cover;
-//   border-radius: 50%;
-//   @media screen and (max-width: 48rem) {
-//     width: 120px;
-//     height: 120px;
-//   }
-// `;
-
-// 25% vs 75%
-
-//1.25 -> 1.5
 const Subtitle = styled.h3`
   font-family: IBM Plex Sans;
   font-style: normal;
@@ -46,6 +33,7 @@ const Subtitle = styled.h3`
   padding-top: 2.75rem;
   padding-bottom: 1.5rem;
   letter-spacing: 0.02rem;
+  text-align: center;
 `;
 
 const Name = styled.h1`
@@ -124,101 +112,14 @@ const Officer = ({ imageUrl, name, position, position2, linkedinUrl }) => (
   </OfficerContainer>
 );
 
-// export default Officer;
+export const AlumniTeam = () => (
+    <Styles>
+    <Title>Past Officers</Title>
 
-
-export const Team = () => (
-  <Styles>
-
-  <Title>Leadership of 2024-2025</Title>
-
-  <OfficersGrid>
-    <Officer 
-      imageUrl="" 
-      name="Apoorva Hooda" 
-      position="President"
-      position2="Education Lead (2024)"
-      linkedinUrl="https://www.linkedin.com/in/apoorvahooda/"
-    />  
-    <Officer 
-      imageUrl="ddsc_23-24/maya_nordin.png" 
-      name="Maya Nordin" 
-      position="Vice President"
-      position2="External Affairs (2023-2024)"
-      linkedinUrl="https://www.linkedin.com/in/maya-nordin/"
-    />  
-    <Officer 
-      imageUrl="/ddsc_23-24/ruba_th.png" 
-      name="Ruba Thekkath" 
-      position="Treasurer (2023-)"
-      linkedinUrl="https://www.linkedin.com/in/rubathekkath/"
-    />  
-  </OfficersGrid>
-
-  <OfficersGrid>
-    <Officer 
-      imageUrl="/ddsc_23-24/steven_ha_v2.jpg" 
-      name="Steven Ha" 
-      position="Education Lead (2024-)"
-      linkedinUrl="https://www.linkedin.com/in/steven-ha-407519252/"
-    />
-    <Officer 
-      imageUrl="no_pic.jpg" 
-      name="Abinaya Manimaran" 
-      position="Education Lead"
-      // linkedinUrl=""
-    />
-    <Officer 
-      imageUrl="no_pic.jpg" 
-      name="Esha Chakrabarty" 
-      position=""
-      // linkedinUrl=""
-    />  
-  </OfficersGrid>
-
-  <OfficersGrid>
-    <Officer 
-      imageUrl="ddsc_23-24/kevin_gui.png" 
-      name="Kevin Gui" 
-      position="External Affairs (2023-)"
-      linkedinUrl="https://www.linkedin.com/in/kevingui/"
-    />
-    <Officer 
-      imageUrl="no_pic.jpg" 
-      name="Karissa Ning" 
-      position="External Affairs"
-      // linkedinUrl=""
-    />
-    <Officer 
-      imageUrl="/ddsc_23-24/trisha_b.png" 
-      name="Trisha Baadkar" 
-      position="Career & Development (2023-)"
-      linkedinUrl="https://www.linkedin.com/in/trishabaadkar/"
-    />  
-  </OfficersGrid>
-
-  <OfficersGrid>
-    <Officer 
-      imageUrl="no_pic.jpg" 
-      name="Shreya Maddhali" 
-      position="Career & Development"
-      // linkedinUrl=""
-    />
-    <Officer 
-      imageUrl="no_pic.jpg" 
-      name="Kayla H. Arsadianto" 
-      position="Social Media"
-      // linkedinUrl=""
-    />
-    <Officer 
-      imageUrl="no_pic.jpg" 
-      name="Janna Fasheh" 
-      position="Social Media"
-      // linkedinUrl=""
-    />  
-  </OfficersGrid>
-
-  {/* <Title>Past Officers</Title>
+    <Subtitle>
+    Meet the exceptional individuals who have served as officers in our organization. 
+    These dedicated officers have not only contributed to our success during their tenure but continue to inspire us with their achievements beyond their roles.
+    </Subtitle>
 
   <OfficersGrid>
     <Officer 
@@ -229,14 +130,17 @@ export const Team = () => (
       linkedinUrl="https://www.linkedin.com/in/aditya-seth-b93a561a0/"
     />
     <Officer 
-      imageUrl="/ddsc_23-24/cindy_ch.png" 
+      // imageUrl="/ddsc_23-24/cindy_ch.png" 
+      // imageUrl="/ddsc_23-24/cindy_ch_v2.jpg"
+      // imageUrl="/ddsc_23-24/cindy_ch_v3.jpg"
+      imageUrl="/ddsc_23-24/cindy_ch_blurred.jpg"
       name="Cindy Chen" 
       position="Vice President (2022-2024)" 
       position2="Social Media (2021-2022)" 
       linkedinUrl="https://www.linkedin.com/in/cindy-chen-141354223/"
     />
     <Officer 
-      imageUrl="/ddsc_23-24/malia_pandes.png" 
+      imageUrl="/ddsc_23-24/malia_pandes.jpg" 
       name="Malia Pandes" 
       position="Career & Development (2023-2024)" 
       linkedinUrl="https://www.linkedin.com/in/malia-pandes/"
@@ -323,7 +227,7 @@ export const Team = () => (
       linkedinUrl="https://www.linkedin.com/in/amy-zhang-5ba1901bb/"
     />
     <Officer 
-      imageUrl="" 
+      imageUrl="ddsc_2021/mason_dr.png" 
       name="Mason Del Rio" 
       position="Technical Team (2021-2022)"
       linkedinUrl="https://www.linkedin.com/in/masondelrio/"
@@ -335,7 +239,7 @@ export const Team = () => (
     <Officer 
       imageUrl="/ddsc_22-23/n_liu.jpeg" 
       name="Nathan Liu" 
-      position="Technical Team (2021-2023) ?"
+      position="Technical Team (2021-2022)"
       linkedinUrl="https://www.linkedin.com/in/nathan-liu-655j/"
     />
     <Officer 
@@ -404,7 +308,6 @@ export const Team = () => (
       imageUrl="ddsc_2021/antonio.png" 
       name="Antonio Pelayo" 
       position="Technical Team (2020-2022)"
-      // linkedinUrl=""
     />
     <Officer 
       imageUrl="ddsc_2021/sayl.png" 
@@ -476,19 +379,19 @@ export const Team = () => (
       linkedinUrl="https://www.linkedin.com/in/nathanjchan/"
     />
     <Officer 
-      imageUrl="" 
+      imageUrl="no_pic.jpg" 
       name="Oliver Hannoui" 
       position="President"
       linkedinUrl="https://www.linkedin.com/in/oliver-hannaoui/"
     />
     <Officer 
-      imageUrl="" 
+      imageUrl="no_pic.jpg" 
       name="Kideok Kwon" 
       position="Career & Development"
       linkedinUrl="https://www.linkedin.com/in/kideok-kwon/"
     />
     <Officer 
-      imageUrl="" 
+      imageUrl="no_pic.jpg" 
       name="Nilay Varshnay" 
       position="Treasurer"
       linkedinUrl="https://www.linkedin.com/in/nilay-varshney/"
@@ -497,12 +400,12 @@ export const Team = () => (
 
   <OfficersGrid>
   <Officer 
-      imageUrl="" 
+      imageUrl="old/patrick_s.jpg" 
       name="Patrick Soong" 
       position="Career & Development"
       linkedinUrl="https://www.linkedin.com/in/ppsoong/"
     />
-  </OfficersGrid> */}
+  </OfficersGrid>
 
   </Styles>
 );

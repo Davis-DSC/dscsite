@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import { Mission } from "./Mission";
-import { Team } from "./Team";
 import { AlumCompanies } from "./AlumCompanies";
+import { AlumniTeam } from "./AlumniTeam";
 import ReactGA from "react-ga";
+import {AlumniSuccessStories} from "./AlumniSuccessStories";
 
 const TRACKING_ID = "G-KDXMSSG090";
 ReactGA.initialize(TRACKING_ID);
@@ -11,10 +11,10 @@ ReactGA.pageview(window.location.pathname + window.location.search);
 
 const Style = styled.div``;
 
-export const Aboutpage = () => (
+export const AlumniPage = () => (
   <Style>
-    <Mission />
-    <Team />
-    {/* <AlumCompanies /> */}
+    <AlumCompanies />
+    <AlumniSuccessStories />
+    <AlumniTeam />
   </Style>
 );

@@ -96,7 +96,7 @@ const Subtitle = styled.h3`
             <Subtitle>We are a team of UC Davis students.</Subtitle>
 
             <Button className="headbutton" variant="contained" size="large" href="https://www.facebook.com/data.ucd/" target="_blank" rel="noopener noreferrer">
-               Learn More >
+               Learn More
             </Button>
 
             </Grid>
