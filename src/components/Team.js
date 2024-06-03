@@ -205,16 +205,16 @@ export const Team = () => (
       linkedinUrl="https://www.linkedin.com/in/shreyamaddhali"
     />
     <Officer 
-      imageUrl="no_pic.jpg" 
+      imageUrl="ddsc_24-25/Kayla_A.jpg" 
       name="Kayla H. Arsadianto" 
       position="Social Media"
-      // linkedinUrl=""
+      linkedinUrl="https://www.linkedin.com/in/kayla-hanarinta-arsadianto-0934b32b7/"
     />
     <Officer 
-      imageUrl="no_pic.jpg" 
+      imageUrl="ddsc_24-25/Janna_F_V2.jpg" 
       name="Janna Fasheh" 
       position="Social Media"
-      // linkedinUrl=""
+      linkedinUrl="https://www.linkedin.com/in/janna-fasheh-7680a1246"
     />  
   </OfficersGrid>
 
