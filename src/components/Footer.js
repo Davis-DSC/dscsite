@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Nav, Navbar, Button } from 'react-bootstrap';
-import Grid from '@material-ui/core/Grid';
-import Container from '@material-ui/core/Container';
+import Grid from '@mui/material/Grid';
+import Container from '@mui/material/Container';
 import styled from 'styled-components';
 
 const Styles = styled.div`

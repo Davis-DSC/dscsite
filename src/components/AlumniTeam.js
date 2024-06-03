@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
+import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
+import Button from "@mui/material/Button";
 import { FaLinkedin } from 'react-icons/fa';
 
 

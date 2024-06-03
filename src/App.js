@@ -6,7 +6,7 @@ import { Joinpage } from "./components/Joinpage";
 import { Eventpage } from "./components/Eventpage";
 import { NavbarC } from "./components/NavbarC";
 import { Footer } from "./components/Footer";
-import Container from "@material-ui/core/Container";
+import Container from "@mui/material/Container";
 import ReactGA from "react-ga";
 import { PicturesPage } from "./components/PicturesPage";
 import { AlumniPage } from "./components/AlumniPage";

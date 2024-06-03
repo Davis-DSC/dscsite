@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import styled from "styled-components";
-import Container from "@material-ui/core/Container";
+import Container from "@mui/material/Container";
 
 const Styles = styled.div`
   .navbar {
