@@ -14,7 +14,7 @@ const Style = styled.div``;
 export const AlumniPage = () => (
   <Style>
     <AlumCompanies />
-    <AlumniSuccessStories />
+    {/* <AlumniSuccessStories /> */}
     <AlumniTeam />
   </Style>
 );

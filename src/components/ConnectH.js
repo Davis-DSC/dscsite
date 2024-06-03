@@ -161,7 +161,7 @@ export const ConnectH = () => (
                 <Title>Stay updated with us.</Title>
 
                 <Subtitle>
-                        Share your email so DDSC can keep you updated about our events, workshops, and other data science resources. </Subtitle>
+                        Join our discord to stay updated about our events, workshops, and other data science resources. </Subtitle>
 
 
 
@@ -213,7 +213,7 @@ export const ConnectH = () => (
                       <Button
                         className = "headbutton"
                         variant="contained"
-                        href="https://mailchi.mp/1510cbd1c7f7/dscmail"
+                        href="https://discord.com/invite/TvEc7ca"
                         target="_blank"
                         rel="noopener noreferrer"
                       > Subscribe

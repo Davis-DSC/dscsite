@@ -134,7 +134,7 @@ export const Team = () => (
 
   <OfficersGrid>
     <Officer 
-      imageUrl="" 
+      imageUrl="no_pic.jpg" 
       name="Apoorva Hooda" 
       position="President"
       position2="Education Lead (2024)"
@@ -171,7 +171,7 @@ export const Team = () => (
     <Officer 
       imageUrl="no_pic.jpg" 
       name="Esha Chakrabarty" 
-      position=""
+      position="Education Lead"
       // linkedinUrl=""
     />  
   </OfficersGrid>
@@ -184,10 +184,10 @@ export const Team = () => (
       linkedinUrl="https://www.linkedin.com/in/kevingui/"
     />
     <Officer 
-      imageUrl="no_pic.jpg" 
+      imageUrl="/ddsc_24-25/Karissa_ning_V3.jpg" 
       name="Karissa Ning" 
       position="External Affairs"
-      // linkedinUrl=""
+      linkedinUrl="https://www.linkedin.com/in/karissa-ning-b743ab1bb"
     />
     <Officer 
       imageUrl="/ddsc_23-24/trisha_b.png" 
@@ -199,10 +199,10 @@ export const Team = () => (
 
   <OfficersGrid>
     <Officer 
-      imageUrl="no_pic.jpg" 
+      imageUrl="/ddsc_24-25/shreya_maddhali_V2.jpg" 
       name="Shreya Maddhali" 
       position="Career & Development"
-      // linkedinUrl=""
+      linkedinUrl="https://www.linkedin.com/in/shreyamaddhali"
     />
     <Officer 
       imageUrl="no_pic.jpg" 

@@ -132,7 +132,7 @@ export const Joinpage = () => (
     </Para>
     <Subpara>
       We are open to all majors, years, and experience levels, so do not
-      hesitate to apply! Yet, for Technical Team officer, programming and
+      hesitate to apply! For Education Lead officers, programming and
       statistical knowledge is preferred.
     </Subpara>
   </Styles>

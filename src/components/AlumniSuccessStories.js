@@ -9,7 +9,6 @@ import 'swiper/css/navigation';
 
 // import './styles.css';
 
-// import React from "react";
 import styled from "styled-components";
 
 // import required modules
@@ -49,11 +48,14 @@ const Card = styled.div`
 `;
 
 const Image = styled.img`
-  width: 400px;
-  height: 400px;
+  width: 100%; /* Use 100% width to fill the container */
+  height: auto; /* Maintain aspect ratio */
+  max-width: 400px; /* Limit maximum width to prevent image distortion */
+  max-height: 400px; /* Limit maximum height to prevent image distortion */
   object-fit: cover;
   margin-bottom: 20px;
 `;
+
 
 const Description = styled.p`
   font-size: 1.2rem;
@@ -103,10 +105,10 @@ export const AlumniSuccessStories = () => (
     <Subtitle>Discover how DDSC helped our alumni succeed after graduating from UC Davis.</Subtitle>
     <SuccessStories
       stories={[
-        { image: "/ddsc_2021/vish.png", name: "Vishnu Rangiah", description: "Person's experience at DDSC was instrumental in blah blah blah." },
-        { image: "/ddsc_2021/deckard_barnes.png", name: "Deckard Barnes", description: "Person's experience at DDSC was instrumental in blah blah blah." },
-        { image: "/ddsc_2021/anch.png", name: "Anchal Lamba", description: "Person's experience at DDSC was instrumental in blah blah blah." },
-        { image: "/ddsc_2021/anto.png", name: "ANtonio", description: "Person's experience at DDSC was instrumental in blah blah blah." }
+        { image: "/ddsc_2021/vish.png", name: "Vishnu Rangiah", description: "<Insert quote here about how this person's experience at DDSC influenced their professional journey>" },
+        { image: "/ddsc_2021/deckard_barnes.png", name: "Deckard Barnes", description: "<Insert quote here about how this person's experience at DDSC influenced their professional journey>" },
+        { image: "/ddsc_2021/anch.png", name: "Anchal Lamba", description: "<Insert quote here about how this person's experience at DDSC influenced their professional journey>" },
+        { image: "/ddsc_2021/anto.png", name: "Antonio", description: "<Insert quote here about how this person's experience at DDSC influenced their professional journey>" }
       ]}
     />
   </Styles>

@@ -215,7 +215,7 @@ export const AlumniTeam = () => (
       linkedinUrl="https://www.linkedin.com/in/ruqayyah-siddique-3b0614189/"
     />
     <Officer 
-      imageUrl="/ddsc_22-23/s_monga.jpeg" 
+      imageUrl="/ddsc_22-23/s_monga_v3.jpeg" 
       name="Smarpan Monga" 
       position="Social Media (2022-2023)"
       linkedinUrl="https://www.linkedin.com/in/smarpan-monga2173/"
@@ -245,7 +245,7 @@ export const AlumniTeam = () => (
     <Officer 
       imageUrl="/ddsc_22-23/n_kaluvai.jpeg" 
       name="Nirmal Kaluvai" 
-      position="Technical Team"
+      position="Technical Team (2021-2022)"
       linkedinUrl="https://www.linkedin.com/in/nirmal-kaluvai/"
     />
     <Officer 
@@ -307,7 +307,7 @@ export const AlumniTeam = () => (
     <Officer 
       imageUrl="ddsc_2021/antonio.png" 
       name="Antonio Pelayo" 
-      position="Technical Team (2020-2022)"
+      position="Technical Team (2021-2022)"
     />
     <Officer 
       imageUrl="ddsc_2021/sayl.png" 
@@ -326,7 +326,7 @@ export const AlumniTeam = () => (
       linkedinUrl="https://www.linkedin.com/in/udirno/"
     />
     <Officer 
-      imageUrl="ddsc_2021/ayush_gupta.png" 
+      imageUrl="no_pic.jpg" 
       name="Ayush Gupta" 
       position="External Affairs (2021-2022)"
       // linkedinUrl=""
@@ -340,7 +340,7 @@ export const AlumniTeam = () => (
     <Officer 
       imageUrl="ddsc_2021/sha.png" 
       name="Sharon Vien" 
-      position="Social Media"
+      position="Social Media (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/sharonvien/"
     />
   </OfficersGrid>
@@ -349,25 +349,25 @@ export const AlumniTeam = () => (
     <Officer 
       imageUrl="ddsc_2021/isa.png" 
       name="Isabelle Zuroske" 
-      position="Treasurer"
+      position="Treasurer (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/isabellezuroske/"
     />
     <Officer 
       imageUrl="ddsc_2021/gau.png" 
       name="Gaurav Patanke" 
-      position="External Affairs"
+      position="External Affairs (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/gaurav-patanker/"
     />
     <Officer 
       imageUrl="ddsc_2021/adi.png" 
       name="Aditya Kallepalli" 
-      position="Internal Affairs"
+      position="Internal Affairs (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/adityakallepalli/"
     />
     <Officer 
       imageUrl="ddsc_2021/ivan.png" 
       name="Ivan Yang" 
-      position="External Affairs"
+      position="External Affairs (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/igyang/"
     />
   </OfficersGrid>
@@ -375,25 +375,25 @@ export const AlumniTeam = () => (
     <Officer 
       imageUrl="ddsc_2021/nathan.png" 
       name="Nathan Chan" 
-      position="Projects Lead"
+      position="Projects Lead (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/nathanjchan/"
     />
     <Officer 
       imageUrl="no_pic.jpg" 
       name="Oliver Hannoui" 
-      position="President"
+      position="President (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/oliver-hannaoui/"
     />
     <Officer 
       imageUrl="no_pic.jpg" 
       name="Kideok Kwon" 
-      position="Career & Development"
+      position="Career & Development (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/kideok-kwon/"
     />
     <Officer 
       imageUrl="no_pic.jpg" 
       name="Nilay Varshnay" 
-      position="Treasurer"
+      position="Treasurer (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/nilay-varshney/"
     />
   </OfficersGrid>
@@ -402,7 +402,7 @@ export const AlumniTeam = () => (
   <Officer 
       imageUrl="old/patrick_s.jpg" 
       name="Patrick Soong" 
-      position="Career & Development"
+      position="Career & Development (2020-2021)"
       linkedinUrl="https://www.linkedin.com/in/ppsoong/"
     />
   </OfficersGrid>
