@@ -134,7 +134,7 @@ export const Team = () => (
 
   <OfficersGrid>
     <Officer 
-      imageUrl="no_pic.jpg" 
+      imageUrl="ddsc_23-24/Apoorva_H_V2.jpg" 
       name="Apoorva Hooda" 
       position="President"
       position2="Education Lead (2024)"
