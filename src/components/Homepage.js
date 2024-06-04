@@ -1,5 +1,5 @@
 import React from "react";
-import Container from "@material-ui/core/Container";
+import Container from "@mui/material/Container";
 import styled from "styled-components";
 import { Header } from "./Header";
 import { AboutH } from "./AboutH";

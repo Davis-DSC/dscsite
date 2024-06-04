@@ -1,9 +1,9 @@
 import React from 'react';
 import styled from 'styled-components';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import Button from '@material-ui/core/Button';
-import Container from '@material-ui/core/Container';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
 
 const Styles = styled.div`
   padding-top: 2rem;
@@ -96,7 +96,7 @@ const Subtitle = styled.h3`
             <Subtitle>We are a team of UC Davis students.</Subtitle>
 
             <Button className="headbutton" variant="contained" size="large" href="https://www.facebook.com/data.ucd/" target="_blank" rel="noopener noreferrer">
-               Learn More >
+               Learn More
             </Button>
 
             </Grid>

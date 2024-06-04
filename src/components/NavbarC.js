@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-router-dom";
 import { Nav, Navbar, Button } from "react-bootstrap";
 import styled from "styled-components";
-import Container from "@material-ui/core/Container";
+import Container from "@mui/material/Container";
 
 const Styles = styled.div`
   .navbar {
@@ -70,6 +70,8 @@ export const NavbarC = () => (
             <Nav.Link href="/about">About</Nav.Link>
             <Nav.Link href="/event">Event</Nav.Link>
             <Nav.Link href="/join">Join</Nav.Link>
+            <Nav.Link href="/pictures">Pictures</Nav.Link>
+            <Nav.Link href="/alumni">Alumni</Nav.Link>
           </Nav>
         </Navbar.Collapse>
       </Navbar>

@@ -1,8 +1,8 @@
 import React from "react";
 import styled from "styled-components";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
+import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
+import Button from "@mui/material/Button";
 import { FaAngleRight } from "react-icons/fa";
 import ReactGA from "react-ga";
 
@@ -132,7 +132,7 @@ export const Joinpage = () => (
     </Para>
     <Subpara>
       We are open to all majors, years, and experience levels, so do not
-      hesitate to apply! Yet, for Technical Team officer, programming and
+      hesitate to apply! For Education Lead officers, programming and
       statistical knowledge is preferred.
     </Subpara>
   </Styles>

@@ -2,6 +2,7 @@ import React from "react";
 import styled from "styled-components";
 import { Mission } from "./Mission";
 import { Team } from "./Team";
+import { AlumCompanies } from "./AlumCompanies";
 import ReactGA from "react-ga";
 
 const TRACKING_ID = "G-KDXMSSG090";
@@ -14,5 +15,6 @@ export const Aboutpage = () => (
   <Style>
     <Mission />
     <Team />
+    {/* <AlumCompanies /> */}
   </Style>
 );

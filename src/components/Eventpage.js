@@ -1,7 +1,7 @@
 import React from "react";
 import styled from "styled-components";
 import Calendar from "@ericz1803/react-google-calendar";
-import { TramRounded } from "@material-ui/icons";
+import { TramRounded } from "@mui/icons-material";
 import ReactGA from "react-ga";
 
 const TRACKING_ID = "G-KDXMSSG090";

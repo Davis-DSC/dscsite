@@ -1,9 +1,9 @@
 import React from "react";
 import styled from "styled-components";
-import Grid from "@material-ui/core/Grid";
-import Paper from "@material-ui/core/Paper";
-import Button from "@material-ui/core/Button";
-import Container from "@material-ui/core/Container";
+import Grid from "@mui/material/Grid";
+import Paper from "@mui/material/Paper";
+import Button from "@mui/material/Button";
+import Container from "@mui/material/Container";
 
 const Styles = styled.div`
   padding-top: 15rem;

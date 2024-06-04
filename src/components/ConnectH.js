@@ -1,23 +1,23 @@
 import React from 'react';
 import styled from 'styled-components';
-import Grid from '@material-ui/core/Grid';
-import Paper from '@material-ui/core/Paper';
-import ButtonGroup from '@material-ui/core/ButtonGroup';
-import Button from '@material-ui/core/Button';
-import Container from '@material-ui/core/Container';
-import TextField from '@material-ui/core/TextField';
-import Icon from '@material-ui/core/Icon';
-import IconButton from '@material-ui/core/IconButton';
+import Grid from '@mui/material/Grid';
+import Paper from '@mui/material/Paper';
+import ButtonGroup from '@mui/material/ButtonGroup';
+import Button from '@mui/material/Button';
+import Container from '@mui/material/Container';
+import TextField from '@mui/material/TextField';
+import Icon from '@mui/material/Icon';
+import IconButton from '@mui/material/IconButton';
 
 
-import SendIcon from '@material-ui/icons/Send';
-import FacebookIcon from '@material-ui/icons/Facebook';
-import GitHubIcon from '@material-ui/icons/GitHub';
-import LinkedInIcon from '@material-ui/icons/LinkedIn';
-import MailOutlineIcon from '@material-ui/icons/MailOutline';
-import YouTubeIcon from '@material-ui/icons/YouTube';
-import InstagramIcon from '@material-ui/icons/Instagram';
-import ChatIcon from '@material-ui/icons/Chat';
+import SendIcon from '@mui/icons-material/Send';
+import FacebookIcon from '@mui/icons-material/Facebook';
+import GitHubIcon from '@mui/icons-material/GitHub';
+import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import YouTubeIcon from '@mui/icons-material/YouTube';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import ChatIcon from '@mui/icons-material/Chat';
 
 const Styles = styled.div`
     padding: 3.5rem 0rem;
@@ -161,7 +161,7 @@ export const ConnectH = () => (
                 <Title>Stay updated with us.</Title>
 
                 <Subtitle>
-                        Share your email so DDSC can keep you updated about our events, workshops, and other data science resources. </Subtitle>
+                        Join our discord to stay updated about our events, workshops, and other data science resources. </Subtitle>
 
 
 
@@ -213,7 +213,7 @@ export const ConnectH = () => (
                       <Button
                         className = "headbutton"
                         variant="contained"
-                        href="https://mailchi.mp/1510cbd1c7f7/dscmail"
+                        href="https://discord.com/invite/TvEc7ca"
                         target="_blank"
                         rel="noopener noreferrer"
                       > Subscribe
