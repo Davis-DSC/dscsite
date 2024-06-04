@@ -85,16 +85,21 @@ const OfficerContainer = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 20px;
-  flex: 1 1 calc(25% - 40px); /* Flex-grow, flex-shrink, flex-basis */
+  margin: 10px;
   box-sizing: border-box;
 `;
 
 const OfficersGrid = styled.div`
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px; /* Adjust the gap as needed */
+  width: 100%;
+  box-sizing: border-box;
+  @media screen and (max-width: 48rem) {
+    grid-template-columns: repeat(2, 1fr);
+  }
 `;
+
 
 const Officer = ({ imageUrl, name, position, position2, linkedinUrl }) => (
   <OfficerContainer>
