@@ -1,18 +1,12 @@
 import React from "react";
 import styled from "styled-components";
-import Grid from "@mui/material/Grid";
-import Paper from "@mui/material/Paper";
-import Button from "@mui/material/Button";
 import { FaLinkedin } from 'react-icons/fa';
-
-
 
 const Styles = styled.div`
   padding-top: 5rem;
   padding-bottom: 10rem;
 `;
 
-//2rem -> 3rem -> 2.5
 const Title = styled.h1`
   font-family: IBM Plex Sans;
   font-style: normal;
@@ -46,8 +40,8 @@ const Name = styled.h1`
 `;
 
 const OfficersImg = styled.img`
-  width: 250px;
-  height: 250px;
+  width: 225px;
+  height: 225px;
   object-fit: cover;
   border-radius: 50%;
   @media screen and (max-width: 48rem) {
@@ -73,10 +67,10 @@ const LinkedInIcon = styled.a`
   font-size: 1.5rem;
   margin-left: 10px;
   padding-bottom: 0.4rem;
-  transition: transform 0.3s ease; /* Add transition for smooth animation */
+  transition: transform 0.3s ease;
   &:hover {
     color: #0077b5;
-    transform: scale(1.2); /* Increase size on hover */
+    transform: scale(1.2);
   }
 `;
 
@@ -85,8 +79,8 @@ const OfficerContainer = styled.div`
   flex-direction: column;
   align-items: center;
   text-align: center;
-  margin: 20px;
-  flex: 1 1 calc(25% - 40px); /* Flex-grow, flex-shrink, flex-basis */
+  margin: 10px;
+  flex: 1 1 calc(25% - 20px);
   box-sizing: border-box;
 `;
 
