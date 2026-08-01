@@ -8,7 +8,7 @@ const TRACKING_ID = "G-KDXMSSG090";
 ReactGA.initialize(TRACKING_ID);
 ReactGA.pageview(window.location.pathname + window.location.search);
 
-const CALENDAR_API_KEY = process.env.REACT_APP_CALENDAR_API_KEY;
+const CALENDAR_API_KEY = import.meta.env.VITE_CALENDAR_API_KEY;
 
 const Style = styled.div`
   padding-top: 2rem;
