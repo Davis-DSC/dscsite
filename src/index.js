@@ -1,12 +1,14 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
+import { createRoot } from 'react-dom/client';
 import './index.css';
-import App from './App';
+import App from './App.jsx';
 import * as serviceWorker from './serviceWorker';
 import WebFont from 'webfontloader';
 
+const container = document.getElementById('root');
+const root = createRoot(container);
 
-ReactDOM.render(<App />, document.getElementById('root'));
+root.render(React.createElement(App));
 
 
 WebFont.load({
